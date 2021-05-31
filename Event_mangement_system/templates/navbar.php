@@ -35,7 +35,7 @@ if (isset($_SESSION['name'])) {
           <li> <a href= "about_us.php">About Us</a> </li>
           <li> <a href="services.php">Services</a> </li>
           <li> <a href="Contact_us.php">Contact_us</a> </li>
-          <li> <a href="Emergency_Events.php">Emergency_Events</a> </li>
+          
             <!-- only if logged in as admin-->
         <?php if ($current_name == "admin") { ?>
           <li> <a href="admin.php" class="home">Admin</a> </li>
@@ -51,6 +51,7 @@ if (isset($_SESSION['name'])) {
           <?php if ($current_name) { ?>
             <li> <a href="reservations.php">Schedule a Meeting</a> </li>
             <li> <a href="events.php">Book an Events</a> </li>
+            <li> <a href="Emergency_Events.php">Emergency_Events</a> </li>
             <li> <a href="profile.php?id=<?php echo $_SESSION['id']; ?>">Profile</a> </li>
             <li> <a href="includes/logout.php">Logout</a> </li>
 
