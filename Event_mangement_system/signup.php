@@ -44,6 +44,7 @@ include('configure/db_connect.php'); // linking ma3 database bl file ely fl conf
   <input type="submit" name="signup" value="Register">
 
 
+
 </form>
 
 
