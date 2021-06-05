@@ -25,6 +25,7 @@
        Learning the ins and outs of the event business and collaborating
        with top-notch professionals have allowed the team ONYX to make each event the most complete experience possible 
        for its clients. </i></p>
+       <!--<img src="pictures/6.jpg" alt="" class="logo">-->
 
 
        <?php include("templates/Contact_us.php")  ?> <!-- linking the footer-->

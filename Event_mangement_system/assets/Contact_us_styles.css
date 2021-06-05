@@ -10,7 +10,7 @@
   .border-1{
     width: 100px;
     height: 10px;
-    background: #34495e;
+    background: #131e2b;
     margin: 40px auto;
   }
   /*footer div styling styling html kolo*/
@@ -28,7 +28,7 @@
   }
   .contact-us-form-text{
     display: block;
-    width: 62%;
+    width: 69%;
     box-sizing: border-box;
     margin: 17px 294px;
     border: 0;
