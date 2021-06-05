@@ -48,7 +48,7 @@ include('configure/db_connect.php'); // linking ma3 database bl file ely fl conf
 </form>
 
 
-
+<?php include('includes/signup_inc.php') ?> <!-- link bl signup php-->
 <script type="text/javascript" src="js/form_validation_signup.js"> </script>
   </body>
 </html>

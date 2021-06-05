@@ -22,11 +22,19 @@ if (isset($_SESSION['name'])) {
 
 
  ?>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title> <!-- esm el page fl bar-->
+    <link rel="stylesheet" href="https://fontawesome.com/v5.15/icons/angle-double-down?style=regular"> <!-- linking the icon-->
 
+  </head>
+  <body>
   <nav>
     <div class="container">
       <div class="brand">
-        <h1 class="brand">ONYX</h1>
+        <h1 class="brand">ONXY</h1>
       </div>
       <div class="links">
         <ul>
@@ -34,13 +42,13 @@ if (isset($_SESSION['name'])) {
           <li> <a href="home_page.php" class="home">Home</a> </li>
           <li> <a href= "about_us.php">About Us</a> </li>
           <li> <a href="services.php">Services</a> </li>
-          <li> <a href="Contact_us.php">Contact_us</a> </li>
+          <li class="us"> <a href='#contact'>Contact Us</a> </li>
           
             <!-- only if logged in as admin-->
         <?php if ($current_name == "admin") { ?>
           <li> <a href="admin.php" class="home">Admin</a> </li>
         <?php } else { ?>
-          <li> <a href="gallery.php"> Gallery</a> </li>
+          <!--<li> <a href="gallery.php"> Gallery</a> </li> -->
 
         <?php } ?>
 
@@ -49,12 +57,17 @@ if (isset($_SESSION['name'])) {
           <!-- if logged in as a normal user-->
 
           <?php if ($current_name) { ?>
-            <li> <a href="reservations.php">Schedule a Meeting</a> </li>
-            <li> <a href="events.php">Book an Events</a> </li>
-            <li> <a href="Emergency_Events.php">Emergency_Events</a> </li>
-            <li> <a href="profile.php?id=<?php echo $_SESSION['id']; ?>">Profile</a> </li>
-            <li> <a href="includes/logout.php">Logout</a> </li>
-
+            <div class="dropdown">
+              <button>
+              <i class="far fa-angle-double-down"></i>
+              </button>
+              <div class="dropdown-content">
+              <li> <a href="reservations.php">Schedule a Meeting</a> </li>
+              <li> <a href="events.php">Book an Event</a> </li>
+              <li> <a href="Emergency_Events.php">Emergency_Events</a> </li>
+              <li><a href="profile.php?id=<?php echo $_SESSION['id']; ?>">Profile</a> </li>
+              <li> <a href="includes/logout.php">Logout</a> </li>
+            </div>
           <?php } else { ?>
             <li> <a href="signup.php">Sign-Up</a> </li>
             <li> <a href="login.php">Login</a> </li>
@@ -71,3 +84,8 @@ if (isset($_SESSION['name'])) {
 
     </div>
   </nav>
+
+  </body>
+</html>
+
+ 

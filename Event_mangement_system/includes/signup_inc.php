@@ -63,7 +63,7 @@ if (isset($_POST['signup'])){
   // ================ insert to db ===============
 
 if ($password_v && $email_v && $name_v) {
-  $sql = "INSERT INTO user(full_name,email,password) VALUES ('$name','$email','$hashedPass'); ";
+  $sql = "INSERT INTO user (full_name,email,password) VALUES ('$name','$email','$hashedPass'); ";
   if (mysqli_query($conn,$sql)){
     // redirect to login
     header("location: login.php");

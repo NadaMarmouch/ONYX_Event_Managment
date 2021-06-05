@@ -1,5 +1,5 @@
 var form = document.getElementById('validate');
-var name = document.getElementsByName('name')[0];
+var full_name = document.getElementsByName('name')[0];
 var email = document.getElementsByName('email')[0];
 var password1 = document.getElementsByName('password1')[0];
 var password2 = document.getElementsByName('password2')[0];
@@ -15,12 +15,12 @@ var password_v = document.getElementsByName('password-v')[0] ;
 
 form.addEventListener('submit', function(event){
 
-  var nameV = name.value.trim() ;
+  var nameV = full_name.value.trim() ;
   var emailV = email.value.trim() ;
   var password1V = password1.value.trim() ;
   var password2V = password2.value.trim() ;
 
-  checkEmpty(name,nameV,"You cannot leave the name field empty!",name_v,event) ;
+  checkEmpty(full_name,nameV,"You cannot leave the name field empty!",name_v,event) ;
   checkEmpty(email,emailV,"You cannot leave the email field empty!",email_v,event) ;
   checkEmpty(password1,password1V,"You cannot leave the password field empty!", password_v,event) ;
   checkEmpty(password2,password2V,"Re-type the password please!", password_v,event) ;});

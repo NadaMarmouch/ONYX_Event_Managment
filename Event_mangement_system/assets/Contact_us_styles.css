@@ -1,0 +1,100 @@
+/*title styling*/
+  .Contact_us h5{
+    margin-top:-20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 10px;
+  }
+  /*border ely ta7t title contact us styling*/
+  .border-1{
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+  }
+  /*footer div styling styling html kolo*/
+  .Contact_us {
+    width: 100%;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    font-family: "montserrat", sans-serif;
+    background-image: url("../pictures/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+  }
+  .contact-us-form-text{
+    display: block;
+    width: 62%;
+    box-sizing: border-box;
+    margin: 17px 294px;
+    border: 0;
+    background-color: rgb(8, 8, 8);
+    padding: 20px  40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+    text-align: center;
+  }
+  .contact-us-form-text:focus{
+    box-shadow: 0 0 10px 4px #d8395b;
+  }
+  textarea .contact-us-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contact-us-form-btn{
+    float:none;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .contact-us-form-btn:hover{
+    background:#d8395b;
+  }
+  
+  
+  form{
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  
+  h3{
+    color:rgb(180, 0, 0);
+    font-weight: 200;
+    text-align: center;
+  
+  }
+  
+  input[type="text"]:focus{
+    box-shadow:5px #dd1943;
+    border:3px solid  #dd1943;
+  
+  }
+  
+  /* ============== error and redirecting messages ============== */
+  
+  
+  .erroRS p {
+  color:red;
+  font-family: tahoma;
+  margin-top: 3px;
+  margin-bottom: 40px;
+  font-size: 12px
+  
+  
+  }
+  /*  Error Messages */
+  .input_errors{
+    box-shadow:0 0 5px rgba(247, 33, 65, 0.37);
+    border-color: rgb(222, 17, 52);
+  }
+  
