@@ -42,7 +42,7 @@ include("includes/admin_inc.php") ;
 
 
    <?php } ?>
-           <table class="1">
+           <table class="one">
              <h3> Contact-Us</h3>
              <thead>
                <tr>
@@ -70,7 +70,7 @@ include("includes/admin_inc.php") ;
          <?php } ?>
 
 
-         <table class="1">
+         <table class="one">
            <h3> Meeting Reservations</h3>
            <thead>
              <tr>
@@ -96,7 +96,7 @@ include("includes/admin_inc.php") ;
                </tr>
        <?php } ?>
 
-       <table class="1">
+       <table class="one">
            <h3> Testimonials</h3>
            <thead>
              <tr>
@@ -118,7 +118,7 @@ include("includes/admin_inc.php") ;
                </tr>
        <?php } ?>
 
-       <table class="1">
+       <table class="one">
          <h3> Booked Events</h3>
          <thead>
            <tr>
@@ -160,7 +160,7 @@ include("includes/admin_inc.php") ;
 
              </tr>
      <?php } ?>
-     <table class="1">
+     <table class="one">
          <h3> Emergency Events</h3>
          <thead>
            <tr>

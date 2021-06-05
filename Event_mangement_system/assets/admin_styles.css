@@ -41,32 +41,31 @@ h3 {
 
 /* Buttons */
 .button{
-    background-color: rgb(24, 194, 250) ;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 400;
-    transition: background-color 200ms ease-in-out
+  background-color: rgb(24, 194, 250) ;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  transition: background-color 200ms ease-in-out
 
-  }
+}
 
-  .button:hover{
-    background-color:  rgb(14, 183, 238)
-  }
+.button:hover{
+  background-color:  rgb(14, 183, 238)
+}
 /* ================= Table ==================== */
 
 table {
 text-align: center;
 margin-left: 200px;
 margin-top: 50px;
-
 }
-table.1 {
+
+table.one {
 text-align: center;
 margin-left: 200px;
 margin-top: 50px;
-
 }
 
 tbody td{
