@@ -28,7 +28,7 @@
        <!--<img src="pictures/6.jpg" alt="" class="logo">-->
 
        <div class="container">
-        <div class="history_of_kitchens">
+        <div class="history_of_Company">
 
        <!-- <img src="pictures\6.jpg" alt="" class="pic1">-->
         <div class="p2">
@@ -38,8 +38,8 @@
       
 
         <!-- opening hours section-->
-
-    <div class="table1">
+ 
+      <div class="table1">
       <h3 class="h3"> Opening Hours</h3>
       <ul>
         <li class="days">Sunday to Thursday</li>
