@@ -27,6 +27,39 @@
        for its clients. </i></p>
        <!--<img src="pictures/6.jpg" alt="" class="logo">-->
 
+       <div class="container">
+        <div class="history_of_kitchens">
+
+       <!-- <img src="pictures\6.jpg" alt="" class="pic1">-->
+        <div class="p2">
+          <h2 class="h2"> The History of Company</h2><br>
+         
+        </div>
+      
+
+        <!-- opening hours section-->
+
+    <div class="table1">
+      <h3 class="h3"> Opening Hours</h3>
+      <ul>
+        <li class="days">Sunday to Thursday</li>
+        <li class="hours"> 9:00AM - 10:00PM </li>
+      </ul>
+      <ul>
+        <li class="days">Friday</li>
+        <li class="hours"> Closed </li>
+      </ul>
+        <h4 class="h4"> Email Address</h4>
+        <p class="t2">onyxgroup@live.com</p>
+
+        </ul>
+        <h5 class="h5">Address</h5>
+        <p class="t5">17 (A) El-Obour Buildings - Salah Salem Cairo, Cairo Governorate, 
+          Egypt 11371</p>
+        
+          </ul>
+    </div>
+    
 
        <?php include("templates/Contact_us.php")  ?> <!-- linking the footer-->
        <?php include("includes/Contact_us_inc.php")  ?> <!-- linking the footer-->

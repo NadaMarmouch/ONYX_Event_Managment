@@ -17,7 +17,7 @@
   .Contact_us {
     width: 100%;
     margin: auto;
-    padding: 0 10px;
+    padding: 0 15px;
     overflow: hidden;
     font-family: "montserrat", sans-serif;
     background-image: url("../pictures/5.jpg");
@@ -35,7 +35,7 @@
     background-color: rgb(8, 8, 8);
     padding: 20px  40px;
     outline: none;
-    color: #ddd;
+    color: rgb(109, 23, 64);
     transition: 0.5s;
     text-align: center;
   }
