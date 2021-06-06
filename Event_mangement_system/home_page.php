@@ -14,7 +14,7 @@
       <img src="pictures/8.jpg" alt="" class="logo">
       <br>
       <br>
-    </div>
+    </div> <!--add-->
     <br><br>
     <div class="about_us">
       <h1 class="h1" > About Us</h1><br>
