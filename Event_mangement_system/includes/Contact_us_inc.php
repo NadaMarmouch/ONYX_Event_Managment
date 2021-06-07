@@ -38,18 +38,7 @@ include('configure/db_connect.php');
 // var_dump($email);
 // var_dump($subject);
 // var_dump($message);
-  if ($name_v && $email_v && $subject_v && $message_v) {
-    $sql = "INSERT INTO contact_us (full_name,email,subject,message,phone_number) VALUES ('$name','$email','$subject','$message',$phone)";
-    if (mysqli_query($conn,$sql)){
-      // echo "succes";
-      header('Location: ../home_page.php');
 
-    }else {
-    echo "failed";
-
-    }
-
-    }
   }
 
 

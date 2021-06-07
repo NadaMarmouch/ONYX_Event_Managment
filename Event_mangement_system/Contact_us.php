@@ -31,4 +31,12 @@
         <input type="submit" class="contact-us-form-btn" name="submit" value="Submit">
       </form>
 
+      <?php include "configure/dbclass.php";
+          include "contact.php";
+
+if(isset($_POST['submit'])){  
+    $c=new contact();
+    $c->addmessage();
+} ?>
+
     </div>

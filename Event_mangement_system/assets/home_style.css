@@ -17,7 +17,19 @@ width: 100%;
   color: #383733;
   text-transform: uppercase;
   text-align: center;
-   }
+}
+
+.h2{
+  margin-top: 28px;
+  text-align: center;
+  font-family: "Cabin";
+  font-weight: 600;
+  font-size: 28px;
+  color: #383733;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 105px;
+}
 .about_us{
   position: relative;
   text-align: center;
@@ -32,7 +44,7 @@ width: 100%;
   color: #777777;
   margin-bottom: 60px;
    }
-   /*.p2{    Pic for about us
+.p2{ 
     font-family: "Cabin", sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -44,28 +56,30 @@ width: 100%;
     margin-right: 200px;
     margin-left: 100px;
     margin-top: 98px;
-    }*/
+    }
   .history_of_Company{
     display: inline-block;
     width: 100%;
-    height: auto;
+    height: 500px;
     vertical-align: middle;
                       }
    .table1{
    /* background-image: url(../pictures/3.jpg);*/
-   background-color: rgb(252, 229, 240);
+    background-color: rgb(252, 229, 240);
     background-repeat: no-repeat;
     background-size:cover;
     width: 99.9%;
     max-width: 2400px;
     display: inline-block;
     overflow: hidden;
-    height: 366px;
+    height: 440px;
     margin-top:96px;
+    overflow: inherit;
   }
   .tab-1{
     width: 400px;
     margin-left: 535px;
+    
   
   }
   .days{
@@ -139,8 +153,17 @@ width: 100%;
     font-family: "Yellowtail", serif;
     font-style: italic,Bold;
     font-size: 24px;
-    font-weight: 700;
     color: rgb(0, 0, 0);
     text-align: left;
     line-height: 5px;
+    text-align: center;
   }
+  .pic1{
+    float: right;
+    width: 665px;
+    height: 615px;
+    margin: 0 100px;
+    margin-top: 44px;
+    border-radius: 10px;
+  
+}

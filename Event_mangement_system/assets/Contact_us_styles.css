@@ -24,13 +24,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 640px;
   }
   .contact-us-form-text{
     display: block;
     width: 63%;
     box-sizing: border-box;
-    margin: 17px 294px;
+    margin: 17px 373px;
     border: 0;
     background-color: rgb(8, 8, 8);
     padding: 20px  40px;
