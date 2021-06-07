@@ -1,6 +1,6 @@
 <?php
 
-$conn =   mysqli_connect("localhost","root", "","onyx_event_management");
+include('configure/db_connect.php');
 
  // ================ Essential Vairbales ===============
  $name = $email = $subject = $message = $phone = "" ;

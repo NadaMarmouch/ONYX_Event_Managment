@@ -1,7 +1,7 @@
+
 <?php
 //DB Connection
 include('configure/db_connect.php');
-
 // ================ Essential Vairbales ===============
 $errors = ["name" => "",  "email" => ""];
 $name = $email = $password = $hashedPass =  "" ;
@@ -59,27 +59,7 @@ if (isset($_POST['signup'])){
     // hash the password
     $hashedPass = password_hash($password,PASSWORD_DEFAULT);
     $password_v = true ;
-  }
-  // ================ insert to db ===============
-
-if ($password_v && $email_v && $name_v) {
-  $sql = "INSERT INTO user (full_name,email,password) VALUES ('$name','$email','$hashedPass'); ";
-  if (mysqli_query($conn,$sql)){
-    // redirect to login
-    header("location: login.php");
-
-  } else {
-    echo "ERROR: ". mysqli_error($conn);
-  }
-}
-
-
-
-
-
-
-
-}
+  }}
 
 
   ?>
