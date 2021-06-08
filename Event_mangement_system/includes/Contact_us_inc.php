@@ -1,6 +1,6 @@
 <?php
 
-include('configure/db_connect.php');
+
 
  // ================ Essential Vairbales ===============
  $name = $email = $subject = $message = $phone = "" ;
@@ -16,30 +16,27 @@ include('configure/db_connect.php');
    if (!empty($_POST['email-v'])){ // if non empty --> hidden input field's value ('valid' or '')
        $email = $_POST['email'];
        $email_v = true ;
-}
+      }
 
   if (!empty($_POST['subject-v'])){ // if non empty --> hidden input field's value ('valid' or '')
       $subject = $_POST['subject'];
       $subject_v = true ;
-  }
+    }
 
 
   if (!empty($_POST['message-v'])){ // if non empty --> hidden input field's value ('valid' or '')
       $message = $_POST['message'];
       $message_v = true ;
-  }
+    }
 
   if (!empty($_POST['phone-v'])){ // if non empty --> hidden input field's value ('valid' or '')
     $phone = $_POST['phone-number'];
     $phone_v = true ;
+    }
+
+
+
 }
-
-// var_dump($name);
-// var_dump($email);
-// var_dump($subject);
-// var_dump($message);
-
-  }
 
 
  ?>

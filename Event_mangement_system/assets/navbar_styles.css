@@ -5,6 +5,7 @@ nav{
 }
 
 nav .brand{ /* ONYX*/
+
   float: left;
   width: 31%;
   font-family: 'Unna', serif;
@@ -17,7 +18,7 @@ nav .brand{ /* ONYX*/
 
 nav .links{
   float: left;
-  width: 46%;
+  width: auto;
   margin-top: 15px;
   font-size: 20px;
 }

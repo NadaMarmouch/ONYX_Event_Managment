@@ -43,7 +43,7 @@ if (isset($_SESSION['name'])) {
           <li> <a href= "about_us.php">About Us</a> </li>
           <li> <a href="services.php">Services</a> </li>
           <li class="us"> <a href='#contact'>Contact Us</a> </li>
-          
+
             <!-- only if logged in as admin-->
         <?php if ($current_name == "admin") { ?>
           <li> <a href="admin.php" class="home">Admin</a> </li>
@@ -56,7 +56,7 @@ if (isset($_SESSION['name'])) {
 
           <!-- if logged in as a normal user-->
 
-          <?php if ($current_name) { ?>
+          <?php// if ($current_name) { ?>
             <div class="dropdown">
               <button>
               <i class="far fa-angle-double-down"></i>
@@ -64,14 +64,14 @@ if (isset($_SESSION['name'])) {
               <div class="dropdown-content">
               <li> <a href="reservations.php">Schedule a Meeting</a> </li>
               <li> <a href="events.php">Book an Event</a> </li>
-              <li> <a href="Emergency_Events.php">Emergency_Events</a> </li>
+              <li> <a href="emergency_event.php">Emergency Events</a> </li>
               <li><a href="profile.php?id=<?php echo $_SESSION['id']; ?>">Profile</a> </li>
               <li> <a href="includes/logout.php">Logout</a> </li>
             </div>
-          <?php } else { ?>
+          <?php// } else { ?>
             <li> <a href="signup.php">Sign-Up</a> </li>
             <li> <a href="login.php">Login</a> </li>
-          <?php } ?>
+          <?php// } ?>
 
 
 
@@ -87,5 +87,3 @@ if (isset($_SESSION['name'])) {
 
   </body>
 </html>
-
- 

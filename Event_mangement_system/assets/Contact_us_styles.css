@@ -20,7 +20,7 @@
     padding: 0 15px;
     overflow: hidden;
     font-family: "montserrat", sans-serif;
-    background-image: url("../pictures/5.jpg");
+    background-image: url("../pictures/24.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -30,7 +30,7 @@
     display: block;
     width: 63%;
     box-sizing: border-box;
-    margin: 17px 373px;
+    margin: auto;
     border: 0;
     background-color: rgb(8, 8, 8);
     padding: 20px  40px;
@@ -59,42 +59,41 @@
   .contact-us-form-btn:hover{
     background:#d8395b;
   }
-  
-  
+
+
   form{
     text-align: center;
     margin: 0 auto;
   }
-  
-  
+
+
   h3{
     color:rgb(180, 0, 0);
     font-weight: 200;
     text-align: center;
-  
+
   }
-  
+
   input[type="text"]:focus{
     box-shadow:5px #dd1943;
     border:3px solid  #dd1943;
-  
+
   }
-  
+
   /* ============== error and redirecting messages ============== */
-  
-  
+
+
   .erroRS p {
   color:red;
   font-family: tahoma;
   margin-top: 3px;
   margin-bottom: 40px;
   font-size: 12px
-  
-  
+
+
   }
   /*  Error Messages */
   .input_errors{
     box-shadow:0 0 5px rgba(247, 33, 65, 0.37);
     border-color: rgb(222, 17, 52);
   }
-  

@@ -1,0 +1,100 @@
+
+*{
+  font-family: tahoma;}
+/* body styling */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* navbar styling */
+.nav{
+  background-color: rgba(12, 21, 26, 0.62);
+
+}
+/* page container styling */
+.wrapper{
+  width:1200px;
+  margin:100px auto;
+}
+/* title styling styling */
+.title{
+  text-align:center;
+  margin-bottom:60px;
+}
+/* event page title styling */
+.title h4{
+  text-transform:capitalize;
+  font-size:36px;
+  position:relative;
+  display:inline-block;
+  padding-bottom:10px;
+}
+/* slogan styling */
+.title h4 span{
+  display:block;
+  font-size:20px;
+  font-style:italic;
+  margin-bottom:10px;
+}
+/* our event border styling */
+.title h4:before{
+  position:absolute;
+  content:"";
+  width:373px;
+  height:8px;
+  background-color:#D4AF37;
+  bottom:0;
+  left:50%;
+  transform:translateX(-50%);
+}
+/* items style */
+.event{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+/* event items style */
+.single-event{
+  flex-basis:678px;
+  margin-bottom:40px;
+  padding-bottom:40px;
+  border-bottom:2px solid #D4AF37;
+  display:flex;
+  align-items:center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/* remove bottom border for selected items */
+.single-event:nth-child(10), .single-event:nth-child(11), .single-event:nth-child(12){
+  border-bottom:0;
+}
+/* removing the border radius when hover */
+.single-event:hover img{
+  border-radius:0px;
+}
+/* image styling*/
+.single-event img{
+  max-width:180px;
+  margin-right:30px;
+  border-radius:50%;
+  border:3px solid #D4AF37;
+  padding:3px;
+  transition:.5s;
+}
+/* event  item styling*/
+.single-event h4{
+  text-transform:capitalize;
+  font-size:22px;
+  border-bottom:1px dashed #D4AF37;
+  margin-bottom:5px;
+  padding-bottom:5px;
+}
+/* Price styling*/
+.single-event h4 span{
+  margin-left: 42px;
+  color:#D4AF37;
+  font-style:italic;
+}
