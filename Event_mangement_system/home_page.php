@@ -48,7 +48,8 @@
       </div>
         <div class="address">
         <h5 class="h5">Address</h5>
-        <p class="t5">17 (A) El-Obour Buildings - Salah Salem Cairo, Cairo Governorate,<br><br><br><br><br><br><br> Egypt 11371</p>
+        <p class="t5">17 (A) El-Obour Buildings - Salah Salem Cairo, Cairo Governorate,
+          <br><br><br><br><br><br><br> Egypt 11371</p>
         </div>
 
     </div>
