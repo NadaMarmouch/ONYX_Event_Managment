@@ -8,7 +8,7 @@
 
  if (isset($_POST['submit'])){
    if (!empty($_POST['name-v'])){ // if non empty --> hidden input field's value ('valid' or '')
-       $name = $_POST['user-name'];
+       $name = $_POST['user_name'];
        $name_v= true ;}
 
 
@@ -30,7 +30,7 @@
     }
 
   if (!empty($_POST['phone-v'])){ // if non empty --> hidden input field's value ('valid' or '')
-    $phone = $_POST['phone-number'];
+    $phone = $_POST['phone_number'];
     $phone_v = true ;
     }
 

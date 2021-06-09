@@ -56,7 +56,5 @@
 
        <?php include("Contact_us.php")  ?> <!-- linking the footer-->
        <?php include("includes/Contact_us_inc.php")  ?> <!-- linking the footer-->
-       <?php include("configure/dbclass.php")  ?>
-
   </body>
 </html>
