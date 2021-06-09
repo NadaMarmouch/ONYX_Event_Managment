@@ -1,4 +1,5 @@
 <?php
+include 'configure/dbclass.php';
 class contact{
     public $name;
     public $e_mail;
@@ -8,8 +9,8 @@ class contact{
 
      public function addmessage(){
         $dbvar =new db();
-        $sql="INSERT into contact_us (full_name,email,subject,message,phone_number) values('".$_POST['user_name']."','".$_POST['email']."','".$_POST['subject']."','".$_POST['message']."','".$_POST['phone_number']."')";
-        mysqli_query($dbvar->connectDB(),$sql);
+        $sql="INSERT INTO `contact_us`(`full_name`, `email`, `subject`, `message`, `phone_number`) VALUES ('$_POST[user_name]','$_POST[email]','$_POST[subject]','$_POST[message]','$_POST[phone_number]') ";
+         mysqli_query($dbvar->connectDB(),$sql);
      }
 
 }
