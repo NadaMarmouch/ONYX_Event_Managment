@@ -2,7 +2,7 @@
       <br><br><br><br>
       <h5 class="h5" id="contact">Contact Us</h5>
       <div class="border-1"></div>
-      <form id="validate" class="contact-us" action="includes/Contact_us_inc.php" method="post">
+      <form id="validate" class="contact-us" action="includes/home_page.php" method="post">
 
         <input class="contact-us-form-text" type="text" name="user-name" value="" placeholder="Enter your name..">
         <div class="input_errors"> <p>  </p>  </div>
