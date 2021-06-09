@@ -34,7 +34,7 @@ if (isset($_SESSION['name'])) {
   <nav>
     <div class="container">
       <div class="brand">
-        <h1 class="brand">ONXY</h1>
+        <h1 class="brand">ONYX</h1>
       </div>
       <div class="links">
         <ul>
@@ -65,13 +65,15 @@ if (isset($_SESSION['name'])) {
               <li> <a href="reservations.php">Schedule a Meeting</a> </li>
               <li> <a href="events.php">Book an Event</a> </li>
               <li> <a href="emergency_event.php">Emergency Events</a> </li>
-              <li><a href="profile.php?id=<?php echo $_SESSION['id']; ?>">Profile</a> </li>
-              <li> <a href="includes/logout.php">Logout</a> </li>
+              <li>-<a href="includes/logout.php">Logout</a> </li>
+            
             </div>
-          <?php// } else { ?>
+
+          <?php //if (isset($_SESSION['email'])) { ?>
+
             <li> <a href="signup.php">Sign-Up</a> </li>
             <li> <a href="login.php">Login</a> </li>
-          <?php// } ?>
+          <?php //} ?>
 
 
 
