@@ -87,11 +87,14 @@
                           of elegant modern interiors overlooking a picturesque panorama of greenery and scenery.<br>
                           Packages include food, beverages, entertainment and decoration.</p>
                     </div>
-                </div>
+                    </div>
                 <div class="single-event">
-                    <img src="pictures/molten_cake.jpeg" alt="">
+                    <img src="pictures/28.jpg" alt="">
                     <div class="event-content">
-                        <h4>molten cake <span>49.99LE</span></h4>
+                        <h4>Open Air Venue(JW Marriott) </h4>
+                        <p> Take from 200 to 400 guest.<br>
+                        Packages include food, beverages, entertainment and decoration
+                    </p>
                     </div>
                 </div>
             </div>

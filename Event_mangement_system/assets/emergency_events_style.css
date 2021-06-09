@@ -11,7 +11,7 @@ body{
 
 /* navbar styling */
 .nav{
-  background-color: rgba(12, 21, 26, 0.62);
+  background-color: #f9806E
 
 }
 /* page container styling */
@@ -23,6 +23,7 @@ body{
 .title{
   text-align:center;
   margin-bottom:60px;
+  color: #f9806E;
 }
 /* event page title styling */
 .title h4{
@@ -45,7 +46,7 @@ body{
   content:"";
   width:373px;
   height:8px;
-  background-color:#D4AF37;
+  background-color:#000000;
   bottom:0;
   left:50%;
   transform:translateX(-50%);
@@ -61,7 +62,7 @@ body{
   flex-basis:678px;
   margin-bottom:40px;
   padding-bottom:40px;
-  border-bottom:2px solid #D4AF37;
+  border-bottom:2px solid #f9806E;
   display:flex;
   align-items:center;
   margin-left: 50px;
@@ -80,7 +81,7 @@ body{
   max-width:180px;
   margin-right:30px;
   border-radius:50%;
-  border:3px solid #D4AF37;
+  border:3px solid #f9806E;
   padding:3px;
   transition:.5s;
 }
@@ -88,13 +89,13 @@ body{
 .single-event h4{
   text-transform:capitalize;
   font-size:22px;
-  border-bottom:1px dashed #D4AF37;
+  border-bottom:1px dashed #f9806E;
   margin-bottom:5px;
   padding-bottom:5px;
 }
 /* Price styling*/
 .single-event h4 span{
   margin-left: 42px;
-  color:#D4AF37;
+  color:#f9806E;
   font-style:italic;
 }

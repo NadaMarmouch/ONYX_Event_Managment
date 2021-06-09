@@ -1,99 +1,99 @@
 /*title styling*/
-  .Contact_us h5{
-    margin-top:-20px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    line-height: 10px;
-  }
-  /*border ely ta7t title contact us styling*/
-  .border-1{
-    width: 100px;
-    height: 10px;
-    background: #131e2b;
-    margin: 40px auto;
-  }
-  /*footer div styling styling html kolo*/
-  .Contact_us {
-    width: 100%;
-    margin: auto;
-    padding: 0 15px;
-    overflow: hidden;
-    font-family: "montserrat", sans-serif;
-    background-image: url("../pictures/24.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 640px;
-  }
-  .contact-us-form-text{
-    display: block;
-    width: 63%;
-    box-sizing: border-box;
-    margin: auto;
-    border: 0;
-    background-color: rgb(8, 8, 8);
-    padding: 20px  40px;
-    outline: none;
-    color: rgb(109, 23, 64);
-    transition: 0.5s;
-    text-align: center;
-  }
-  .contact-us-form-text:focus{
-    box-shadow: 0 0 10px 4px #d8395b;
-  }
-  textarea .contact-us-form-text{
-    resize: none;
-    height: 120px;
-  }
-  .contact-us-form-btn{
-    float:none;
-    border: 0;
-    background: #34495e;
-    color: #fff;
-    padding: 12px 50px;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.5s;
-  }
-  .contact-us-form-btn:hover{
-    background:#d8395b;
-  }
+.Contact_us h5{
+  margin-top:-20px;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  line-height: 10px;
+}
+/*border ely ta7t title contact us styling*/
+.border-1{
+  width: 168px;
+  height: 7px;
+  background: #fc6166;
+  margin: 40px auto;
+}
+/*footer div styling styling html kolo*/
+.Contact_us {
+  width: 100%;
+  margin: auto;
+  padding: 23 15px;
+  overflow: hidden;
+  font-family: "montserrat", sans-serif;
+  background-image: url("../pictures/24.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 640px;
+}
+.contact-us-form-text{
+  display: block;
+  width: 63%;
+  box-sizing: border-box;
+  margin: auto;
+  border: 0;
+  background-color: rgb(8, 8, 8);
+  padding: 20px  40px;
+  outline: none;
+  color: #f8583f;
+  transition: 0.5s;
+  text-align: center;
+}
+.contact-us-form-text:focus{
+  box-shadow: 0 0 10px 4px #d8395b;
+}
+textarea .contact-us-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-us-form-btn{
+  float:none;
+  border: 0;
+  background: #f8583f;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-us-form-btn:hover{
+  background:#f8583f;
+}
 
 
-  form{
-    text-align: center;
-    margin: 0 auto;
-  }
+form{
+  text-align: center;
+  margin: 0 auto;
+}
 
 
-  h3{
-    color:rgb(180, 0, 0);
-    font-weight: 200;
-    text-align: center;
+h3{
+  color:rgb(180, 0, 0);
+  font-weight: 200;
+  text-align: center;
 
-  }
+}
 
-  input[type="text"]:focus{
-    box-shadow:5px #dd1943;
-    border:3px solid  #dd1943;
+input[type="text"]:focus{
+  box-shadow:5px #f8583f;
+  border:3px solid  #f8583f;
 
-  }
+}
 
-  /* ============== error and redirecting messages ============== */
-
-
-  .erroRS p {
-  color:red;
-  font-family: tahoma;
-  margin-top: 3px;
-  margin-bottom: 40px;
-  font-size: 12px
+/* ============== error and redirecting messages ============== */
 
 
-  }
-  /*  Error Messages */
-  .input_errors{
-    box-shadow:0 0 5px rgba(247, 33, 65, 0.37);
-    border-color: rgb(222, 17, 52);
-  }
+.erroRS p {
+color:red;
+font-family: tahoma;
+margin-top: 3px;
+margin-bottom: 40px;
+font-size: 12px
+
+
+}
+/*  Error Messages */
+.input_errors{
+  box-shadow:0 0 5px #F9806E;
+  border-color: #f8583f;
+}

@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url(../pictures/9.jpg);
+  background-image: url(../pictures/30.jpg);
   background-position-y: 1.3cm;
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,8 +52,8 @@ input[type="submit"]{
 
 
 input:focus{
-  box-shadow:5px #d8395b;
-  border:3px solid  #c43050;
+  box-shadow:5px #FB9B9F;
+  border:3px solid  #fc6166;
 
 }
 
@@ -71,7 +71,7 @@ font-size: 12px
 }
 
 .styles{
-border: 3px solid rgb(160, 82, 123, 96%);
+border: 3px solid #fc6166;
 }
 
 
@@ -81,7 +81,7 @@ border: 3px solid rgb(160, 82, 123, 96%);
 
 /*  Error Messages */
 .error-input{
-  box-shadow:0 0 5px rgba(247, 33, 65, 0.37);
+  box-shadow:0 0 5px #fc6166;
   border-color: rgb(222, 17, 52);
 }
 
