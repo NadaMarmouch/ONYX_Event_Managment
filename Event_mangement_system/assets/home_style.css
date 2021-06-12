@@ -73,7 +73,7 @@ width: 100%;
     max-width: 2400px;
     display: inline-block;
     overflow: hidden;
-    height: 440px;
+    height: 451px;
     margin-top:96px;
     overflow: inherit;
   }
@@ -120,7 +120,7 @@ width: 100%;
     font-size: 39px;
     font-weight: 700;
     line-height: 10px;
-    margin-left: 224px;
+    margin-left: 86px;
 
   }
   .h4{
@@ -135,6 +135,8 @@ width: 100%;
     font-size: 24px;
     color: rgb(0, 0, 0);
     text-align: center;
+    font-weight: 500;
+    line-height: 1px;
   }
   .h5{
     text-align: center;
@@ -148,10 +150,10 @@ width: 100%;
   .t5{
     font-family: "Yellowtail", serif;
     font-style: italic,Bold;
-    font-size: 24px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
     text-align: left;
-    line-height: 5px;
+    line-height: 3px;
     text-align: center;
   }
   .pic1{

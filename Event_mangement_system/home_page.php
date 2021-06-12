@@ -37,10 +37,7 @@
           <li class="days">Sunday to Thursday</li>
           <li class="hours"> 9:00AM - 10:00PM </li>
         </ul>
-        <ul>
-          <li class="days">Friday</li>
-          <li class="hours"> Closed </li>
-        </ul>
+       
       </div>
       <div class="email">
         <h4 class="h4"> Email Address</h4>
@@ -48,8 +45,8 @@
       </div>
         <div class="address">
         <h5 class="h5">Address</h5>
-        <p class="t5">17 (A) El-Obour Buildings - Salah Salem Cairo, Cairo Governorate,
-          <br><br><br><br><br><br><br> Egypt 11371</p>
+        <p class="t5">17 (A) El-Obour Buildings - Salah Salem Cairo,<br><br><br><br><br><br><br><br>
+           Cairo Governorate, Egypt 11371</p>
         </div>
 
     </div>
