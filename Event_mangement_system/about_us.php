@@ -33,12 +33,39 @@
     <img src="pictures/35.jpeg" alt=""style="width:100%">
 
       <div class="container">
-        <h2>Salma Osama</h2>
-        <p class="title">Marketing specialist</p>
+        <h2>Salma Sharara</h2>
+        <p class="title">Marketing specialist/manager/coordinator</p>
      <p>salma.salmaosama.zaki@gmail.com</p>
       </div>
     </div>
   </div>
+  <div class="row">
+  <div class="column">
+  <div class="card">
+
+    <img src="pictures/34.jpeg" alt=""style="width:81%">
+
+      <div class="container">
+        <h2>Doaa Fouad Salem</h2>
+        <p class="title">General manager </p>
+     <p>Doaafouadsalem@gmail.com</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+  <div class="column">
+  <div class="card">
+
+    <img src="pictures/36.jpeg" alt=""style="width:81%">
+
+      <div class="container">
+        <h2>Wesam Atif</h2>
+        <p class="title">Chief executive officer  </p>
+     <p>Wesamatif@hotmail.com</p>
+      </div>
+    </div>
+  </div>
+
 
        <?php include("Contact_us.php")  ?> <!-- linking the footer-->
        <?php include("includes/Contact_us_inc.php")  ?> <!-- linking the footer-->
