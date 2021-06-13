@@ -7,6 +7,9 @@ body {
     box-sizing: border-box;
   }
   
+element.style {
+  width: 29%;
+}
   *, *:before, *:after {
     box-sizing: inherit;
   }

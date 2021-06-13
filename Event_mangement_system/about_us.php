@@ -30,7 +30,7 @@
   <div class="column">
   <div class="card">
 
-    <img src="pictures/35.jpeg" alt=""style="width:100%">
+    <img src="pictures/35.jpeg" alt=""style="width:29%">
 
       <div class="container">
         <h2>Salma Osama</h2>
