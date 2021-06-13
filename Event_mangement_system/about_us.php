@@ -30,7 +30,7 @@
   <div class="column">
   <div class="card">
 
-    <img src="pictures/35.jpeg" alt=""style="width:29%">
+    <img src="pictures/35.jpeg" alt=""style="width:100%">
 
       <div class="container">
         <h2>Salma Sharara</h2>
@@ -39,12 +39,11 @@
       </div>
     </div>
   </div>
+  
   <div class="row">
   <div class="column">
   <div class="card">
-
-    <img src="pictures/34.jpeg" alt=""style="width:81%">
-
+    <img src="pictures/34.jpeg" alt=""style="width:100%">
       <div class="container">
         <h2>Doaa Fouad Salem</h2>
         <p class="title">General manager </p>
@@ -52,12 +51,11 @@
       </div>
     </div>
   </div>
+
   <div class="row">
   <div class="column">
   <div class="card">
-
-    <img src="pictures/36.jpeg" alt=""style="width:81%">
-
+    <img src="pictures/36.jpeg" alt=""style="width:100%">
       <div class="container">
         <h2>Wesam Atif</h2>
         <p class="title">Chief executive officer  </p>
