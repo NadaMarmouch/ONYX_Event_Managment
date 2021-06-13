@@ -11,14 +11,14 @@ body{
 
 /* navbar styling */
 .nav{
-  background-color: #f9806E
+  background-color: #f9806E;
 
 }
-/* page container styling */
+/* page container styling *//*
 .wrapper{
   width:1200px;
   margin:100px auto;
-}
+}*/
 /* title styling styling */
 .title{
   text-align:center;
@@ -51,12 +51,10 @@ body{
   left:50%;
   transform:translateX(-50%);
 }
+
+
 /* items style */
-.event{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:space-between;
-}
+
 /* event items style */
 .single-event{
   flex-basis:678px;

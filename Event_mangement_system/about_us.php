@@ -18,15 +18,16 @@
     <div class="about_us">
       <h1 class="h1" > About Us</h1><br>
       <p class="p1"><i> “we absolutely love what we do , and it is evident in every special moment 
-      we create with you -
-       and for you. Our clients are our inspiration,and the details that go into the events we design,
-        plan and manage -no matter how big or small-are extremely important to us. 
+        we create with you -and for you.  Our clients are our inspiration,and the details<br> that go into the events 
+        we design,plan and manage -no matter how big or small-are extremely important to us." <br>
        Our customized and personalized service assists clients in the designing,
-       planning and management process one step at a time .
+       planning and management process one step at a time .<br>
         This allows our clients to never feel overwhelmed; we instill calmness and 
         order in our clients as we design , plan and manage their special occasions . </i></p>
-       <!--<img src="pictures/6.jpg" alt="" class="logo">-->
+      
        </div>
+       <br><br>
+    <div class="Our_Team">
        <h2 style="text-align:center">Our Team</h2>
 <div class="row">
   <div class="column">
@@ -36,7 +37,7 @@
 
       <div class="container">
         <h2>Salma Sharara</h2>
-        <p class="title">Marketing specialist/manager/coordinator</p>
+        <p class="title">Marketing specialist<br>manager/coordinator</p>
      <p>salma.salmaosama.zaki@gmail.com</p>
       </div>
     </div>
