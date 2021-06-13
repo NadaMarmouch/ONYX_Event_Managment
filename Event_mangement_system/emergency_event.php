@@ -138,7 +138,7 @@
                         •photographer.<br>
                         •DJ.<br>
                         • Packages include food, beverages, entertainment and decoration.<br><br>
-                        <input type="button" class="Reserve" name="Reserve" value="Reserve">
+                        <input onclick="myFunction()" type="button" class="Reserve" name="Reserve" value="Reserve" action="test">
                     </p>
                     </div>
                 </div>
@@ -146,6 +146,12 @@
         </div>
 
         <?php include("Contact_us.php") ?>
-        
+
+<script>
+function myFunction() {
+  window.open("test.php");
+}
+</script>
+  
   </body>
 </html>

@@ -3,7 +3,7 @@
 
 
  // ================ Essential Vairbales ===============
- $name = $email = $feedback  "" ;
+ $name = $email = $feedback   ="" ;
  $name_v = $email_v  = $feedback_v  = false;
 
  if (isset($_POST['submit'])){

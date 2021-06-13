@@ -1,27 +1,26 @@
 
-
 /*title styling*/
-.testimonia h5{
+.testimonials h5{
     margin-top:-20px;
     text-align: center;
-    color: white;
+    color: #f8583f;
     font-size: 35px;
     line-height: 10px;
   }
-  
+
+
   /*footer div styling styling html kolo*/
-  .testimonia {
-    width: 100%;
-    margin: auto;
-    padding: 23 15px;
-    overflow: hidden;
-    font-family: "montserrat", sans-serif;
-    background-image: url("../pictures/24.png");
+  body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../pictures/3.png);
+    background-position-y: 1.3cm;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 640px;
+    /*background: rgb(179, 19, 19);*/
+    
   }
+
   .testimonials-form{
     display: block;
     width: 63%;
