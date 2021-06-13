@@ -17,12 +17,14 @@
     <br><br>
     <div class="about_us">
       <h1 class="h1" > About Us</h1><br>
-      <p class="p1"><i> ONYX is the premiere full-service event-design planning and management firm in Cairo
-       for conferences, exhibitions, corporate and live events.<br>
-       ONYX was built on the foundation of fairness, honesty, integrity, and the understanding of the true meaning
-       behind building a successful team for every event.<br>
-       Learning the ins and outs of the event business and collaborating with top-notch professionals have allowed the team ONYX to make each
-       event the most complete experience possible for its clients. </i></p>
+      <p class="p1"><i> “we absolutely love what we do , and it is evident in every special moment 
+      we create with you -
+       and for you. Our clients are our inspiration,and the details that go into the events we design,
+        plan and manage -no matter how big or small-are extremely important to us. 
+       Our customized and personalized service assists clients in the designing,
+       planning and management process one step at a time .
+        This allows our clients to never feel overwhelmed; we instill calmness and 
+        order in our clients as we design , plan and manage their special occasions . </i></p>
        <!--<img src="pictures/6.jpg" alt="" class="logo">-->
        </div>
        <h2 style="text-align:center">Our Team</h2>
@@ -30,7 +32,7 @@
   <div class="column">
   <div class="card">
 
-    <img src="pictures/35.jpeg" alt=""style="width:100%">
+    <img src="pictures/35.jpg" alt=""style="width:100%">
 
       <div class="container">
         <h2>Salma Sharara</h2>
