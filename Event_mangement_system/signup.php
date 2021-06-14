@@ -1,6 +1,7 @@
 <?php
+include_once("configure/dbclass.php");
 include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes file
-require_once("configure/dbclass.php");
+
 ?>
 <!DOCTYPE html>
 <html lang="
