@@ -3,7 +3,7 @@ include 'configure/dbclass.php';
 
 class Events
 {
-   public function view_Events_Types(){
+    public function view_Events_Types(){
       $dbvariable=new DB();
 
       $sql="select *from event_type";
@@ -12,7 +12,7 @@ class Events
       while ($row=mysqli_fetch_array($result)){//array.length 0 1 2
          $str.="<option>".$row['event_type']."</option>"; 
       }
-   echo $str;
+      echo $str;
 }
    public function Reserve($name,$email,$date,$time,$attendee,$phone,$comment,$type)
    {
