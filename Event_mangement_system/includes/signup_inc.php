@@ -8,7 +8,8 @@ $name = $email = $password = $hashedPass =  "" ;
 $name_v = $email_v  = $password_v = false;
 
 
-if (isset($_POST['signup'])){
+if (isset($_POST['signup']))
+{
 
   // How will php know that there are values in the input fields? (aka: How will it know thhat the input fields are NOT EMPTY?)
   // Conditional to let PHP take control ONLY IF THE USERNAME IS NOT EMPTY
@@ -61,6 +62,11 @@ if (isset($_POST['signup'])){
   $password_v = true ;
   
 }
+    $password = $_POST['password2'];
+    // hash the password
+    $hashedPass = password_hash($password,PASSWORD_DEFAULT);
+    $password_v = true ;
+  }
 
 
   ?>

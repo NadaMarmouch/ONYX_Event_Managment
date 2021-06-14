@@ -21,15 +21,15 @@ include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes f
     <!-- sign-up form -->
     <form id="validate" class=""  method="POST">
 
-        <input class="styles" type="email" name="email" value="<?php echo $email ?>" placeholder="Enter your email..">
+        <input class="styles" type="email" name="email" value="<?php echo $email ?>" required placeholder="Enter your email..">
         <div class="erroRS">
             <p> <?php echo $errors['email'] ?> </p>
         </div>
         <input type="hidden" name="email-v" value="">
 
 
-        <input class="styles" type="password" name="password" value="" placeholder="Enter your password..">
-       
+        <input class="styles" type="password" name="password" placeholder="Enter your password.." required>
+       <br>
         <input type="submit" name="Login" value="Login">
     </form>
 
