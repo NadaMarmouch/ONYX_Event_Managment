@@ -1,6 +1,6 @@
 <?php
 //include('includes/feedback_inc.php'); // linking ma3 el php code ely fl includes file
-include('configure/db_connect.php'); // linking ma3 database bl file ely fl configure file
+include('configure/dbclass.php'); // linking ma3 database bl file ely fl configure file
 
 ?>
 <!DOCTYPE html>
