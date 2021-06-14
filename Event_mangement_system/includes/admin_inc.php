@@ -1,8 +1,6 @@
 <?php
 
-include('configure/db_connect.php');
-
-
+$conn =   mysqli_connect("localhost","root", "","onyx_event_management");
 
 $sql = "SELECT * FROM user" ;//  CRUD -> R
 $sql1 = "SELECT * FROM contact_us" ;

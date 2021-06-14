@@ -186,7 +186,6 @@ include("includes/admin_inc.php") ;
                <td>  <?php echo $row5['email']; ?> </td>
                <td>  <?php echo $row5['phonenumber']; ?> </td>
                <td>  <?php echo $row5['packagename']; ?> </td>
-               <td>  <?php echo $row5['packageprice']; ?> </td>
                <td>  <?php echo $row5['numberofguests']; ?> </td>
                <td>  <?php echo $row5['comments']; ?> </td>
 

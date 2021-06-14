@@ -1,6 +1,6 @@
 <?php
 
-include('configure\db_connect.php') ; // database connection
+include('configure\dbclass.php') ; // database connection
 session_start() ; // starting th session
 
 $current_name = $current_email =  $current_id = "" ;

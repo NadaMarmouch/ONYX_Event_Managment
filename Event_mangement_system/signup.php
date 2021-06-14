@@ -26,13 +26,13 @@ include('configure/db_connect.php'); // linking ma3 database bl file ely fl conf
         <div class="erroRS">
             <p> <?php echo $errors['name'] ?> </p>
         </div>
-        <input type="hidden" name="name-v" value="">
+
 
         <input class="styles" type="email" name="email" value="<?php echo $email ?>" placeholder="Enter your email..">
         <div class="erroRS">
             <p> <?php echo $errors['email'] ?> </p>
         </div>
-        <input type="hidden" name="email-v" value="">
+
 
 
         <input class="styles" type="password" name="password1" value="" placeholder="Enter your password..">
@@ -44,7 +44,7 @@ include('configure/db_connect.php'); // linking ma3 database bl file ely fl conf
         <div class="erroRS">
             <p> </p>
         </div>
-        <input type="hidden" name="password-v" value="">
+
 
         <input type="submit" name="signup" value="Register">
     </form>
