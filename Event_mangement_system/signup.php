@@ -1,7 +1,6 @@
 <?php
 include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes file
-include('configure/db_connect.php'); // linking ma3 database bl file ely fl configure file
-
+require_once("configure/dbclass.php");
 ?>
 <!DOCTYPE html>
 <html lang="
@@ -50,7 +49,7 @@ include('configure/db_connect.php'); // linking ma3 database bl file ely fl conf
     </form>
 
 
-    <?php 
+    <?php include "configure/dbclass.php";
           include "user.php";
 
 if(isset($_POST['signup'])){  

@@ -1,7 +1,8 @@
 
 <?php
 //DB Connection
-include('configure/db_connect.php');
+require_once("configure/dbclass.php");
+
 // ================ Essential Vairbales ===============
 $errors = ["name" => "",  "email" => ""];
 $name = $email = $password = $hashedPass =  "" ;
@@ -62,11 +63,6 @@ if (isset($_POST['signup']))
   $password_v = true ;
   
 }
-    $password = $_POST['password2'];
-    // hash the password
-    $hashedPass = password_hash($password,PASSWORD_DEFAULT);
-    $password_v = true ;
-  }
 
 
   ?>
