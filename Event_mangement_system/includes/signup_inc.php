@@ -33,10 +33,9 @@ if (isset($_POST['signup'])){
 
   }
   // ================== Email: Existance validation ===============
-  if (!empty($_POST['email-v'])){ // if non empty --> hidden input field's value ('valid' or '')
+ 
       $email = $_POST['email'];
       $sql  = "SELECT * FROM user WHERE email = '$email';";
-
       $results = mysqli_query($conn,$sql) ;
       if (mysqli_num_rows($results) > 0 ) {
         // Error

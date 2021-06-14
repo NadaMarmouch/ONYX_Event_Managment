@@ -35,56 +35,56 @@ body {
   left:50%;
   transform:translateX(-50%);
 }
-  html {
+html {
     box-sizing: border-box;
-  }
+}
   
 
-  *, *:before, *:after {
+*, *:before, *:after {
     box-sizing: inherit;
-  }
+}
   
-  .column {
-    float: left;
-    margin-left: 274px;
-    margin-top: 45px;
-    width: 15%;
-    margin-bottom: 50px;
-    padding: 0 8px;
-  }
-  .card img{
- width: 600px;
- height: 250px;
-  }
-  
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-    margin-left: -92px;
-  }
-  
-  .about-section {
-    padding: 50px;
+.column {
+  float: left;
+  margin-left: 238px;
+  margin-top: 45px;
+  width: 15%;
+  margin-bottom: 50px;
+  padding: 0 8px;
+}
+.card img{
+width: 600px;
+height: 250px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  margin-left: -92px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.element.style {
     text-align: center;
-    background-color: #474e5d;
-    color: white;
-  }
-  
-  .container {
-    padding: 0 16px;
-  }
-  
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .title {
-    color: grey;
-  }
-  
-  .element.style {
-      text-align: center;
-      margin-left: 110px;
-  }
+    margin-left: 110px;
+}

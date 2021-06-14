@@ -1,5 +1,5 @@
 <?php 
-include 'configure/dbclass.php';
+require_once('configure/dbclass.php');
 class user
 {
    public $name;
@@ -12,16 +12,16 @@ class user
       $sql="INSERT into user (full_name,email,password) values('$_POST[name]','$_POST[email]','$_POST[password1]')";
       mysqli_query($dbvariable->connectDB(),$sql);  
    }
-   public function login($email,$password)
-   {
+   public function login($email,$password){
       $dbvariable =new DB();
-      $sql="select * from user where email='$email' and password='$password'";
+      $sql=" SELECT * from user where email='$email' and password='$password'";
       $result=mysqli_query($dbvariable->connectDB(),$sql);  
       $row=mysqli_fetch_array($result);
       if(mysqli_num_rows($result)==1)
       {
          if($row['email']==$email && $row['password']==$password )
-         {
+         {  session_start();
+            $_SESSION['id'] = $row['id'];
             $_SESSION['email']=$email;
             $_SESSION['password']=$password;
             $_SESSION['name']=$row['full_name'];
@@ -32,6 +32,7 @@ class user
             echo "<scrript>alert('Invalid Email and Password');</script>";
          }  
       }
+
    }
   
 }

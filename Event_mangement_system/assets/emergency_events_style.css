@@ -1,24 +1,15 @@
 
 *{
-  font-family: tahoma;}
+  font-family: tahoma;
+}
 /* body styling */
 body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
 
 }
 
-/* navbar styling */
-.nav{
-  background-color: #f9806E;
-
-}
-/* page container styling *//*
-.wrapper{
-  width:1200px;
-  margin:100px auto;
-}*/
 /* title styling styling */
 .title{
   text-align:center;
@@ -52,51 +43,44 @@ body{
   transform:translateX(-50%);
 }
 
-
-/* items style */
-
 /* event items style */
-.single-event{
+.event .event-content{
   flex-basis:678px;
   margin-bottom:40px;
   padding-bottom:40px;
   border-bottom:2px solid #f9806E;
-  display:flex;
-  align-items:center;
+  display:block;
+  align-items:left;
   margin-left: 50px;
   margin-right: 50px;
 }
 /* remove bottom border for selected items */
-.single-event:nth-child(10), .single-event:nth-child(11), .single-event:nth-child(12){
+.event-content:nth-child(10), .event-content:nth-child(11), .event-content:nth-child(12){
   border-bottom:0;
 }
 /* removing the border radius when hover */
-.single-event:hover img{
+.event .single-event:hover img{
   border-radius:0px;
 }
 /* image styling*/
-.single-event img{
-  max-width:180px;
-  margin-right:30px;
+.event .single-event img{
+  width: 250px;
+  height: 210px;
+  margin-left:29px;
   border-radius:50%;
   border:3px solid #f9806E;
   padding:3px;
   transition:.5s;
 }
 /* event  item styling*/
-.single-event h4{
+.h4{
   text-transform:capitalize;
   font-size:22px;
   border-bottom:1px dashed #f9806E;
   margin-bottom:5px;
   padding-bottom:5px;
 }
-/* Price styling*/
-.single-event h4 span{
-  margin-left: 42px;
-  color:#f9806E;
-  font-style:italic;
-}
+
 .button {
   border: none;
   color: #f9806E;
@@ -107,17 +91,18 @@ body{
   font-size: 25px;
   margin: 4px 2px;
   cursor: pointer;
+  margin-left: 20%;
+  margin-right: 50%;
 }
-.Reserve{
-  float:none;
-  border: 0;
-  background: #f8583f;
-  color: #fff;
-  padding: 12px 50px;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: 0.5s;
+
+.event{
+  width: 646px;
+  display: inline-grid;
+  margin-left: 107px;
 }
+
+
+
 input[type="text"]:focus{
   box-shadow:5px #f8583f;
   border:3px solid  #f8583f;
