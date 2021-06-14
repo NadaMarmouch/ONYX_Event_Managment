@@ -26,6 +26,8 @@
   background-size: cover;
   background-position: center;
   height: 640px;
+  text-align: center;
+  margin: 0 auto;
 }
 .contact-us-form-text{
   display: block;
@@ -62,10 +64,6 @@ textarea .contact-us-form-text{
 }
 
 
-form{
-  text-align: center;
-  margin: 0 auto;
-}
 
 
 h3{

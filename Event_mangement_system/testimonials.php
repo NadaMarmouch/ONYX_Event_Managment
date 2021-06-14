@@ -42,8 +42,8 @@ include('configure/db_connect.php'); // linking ma3 database bl file ely fl conf
            <?php
      include "contact.php";
  if(isset($_POST['submit'])){
-     $c=new contact();
-     $c->addfeedback($_POST['name-v'],$_POST['email-v'],$_POST['feedback-v']);
+     $e=new contact();
+     $e->addfeedback();
  } ?>
 
 </div>

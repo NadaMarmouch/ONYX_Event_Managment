@@ -49,29 +49,26 @@ if (isset($_SESSION['name'])) {
 
         <?php } ?>
 
+        <!-- if logged in as a normal user-->
+        <?php if ($current_name) { ?>
+          <div class="dropdown">
+            <button>
+            <i class="far fa-angle-double-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <li> <a href="reservations.php">Schedule a Meeting</a> </li>
+            <li> <a href="events.php">Book an Event</a> </li>
+            <li> <a href="emergency_event.php">Emergency Events</a> </li>
+            <li> <a href="testimonials.php">Testimonials</a> </li>
+            <li> <a href="includes/logout.php">Logout</a> </li>
 
+          </div>
 
-          <!-- if logged in as a normal user-->
+        <?php } else { ?>
 
-          <?php// if ($current_name) { ?>
-            <div class="dropdown">
-              <button>
-              <i class="far fa-angle-double-down"></i>
-              </button>
-              <div class="dropdown-content">
-              <li> <a href="reservations.php">Schedule a Meeting</a> </li>
-              <li> <a href="events.php">Book an Event</a> </li>
-              <li> <a href="emergency_event.php">Emergency Events</a> </li>
-              <li> <a href="testimonials.php">Testimonials</a> </li>
-              <li>-<a href="includes/logout.php">Logout</a> </li>
-            
-            </div>
-
-          <?php //if (isset($_SESSION['email'])) { ?>
-
-            <li> <a href="signup.php">Sign-Up</a> </li>
-            <li> <a href="login.php">Login</a> </li>
-          <?php //} ?>
+          <li> <a href="signup.php">Sign-Up</a> </li>
+          <li> <a href="login.php">Login</a> </li>
+        <?php } ?>
 
 
 

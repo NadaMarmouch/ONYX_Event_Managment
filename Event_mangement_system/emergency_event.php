@@ -1,11 +1,12 @@
 <?php
 require_once("classes.php");
+include('configure/dbclass.php');
 ?>
 
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>event</title>
+    <title>event</title> 	
 <link rel="stylesheet" href="assets/emergency_events_style.css">
 <link rel="stylesheet" href="assets/navbar_styles.css">
 <link rel="stylesheet" href="assets/Contact_us_styles.css">
@@ -21,16 +22,14 @@ require_once("classes.php");
 	<?php	
 	$allEvents=Event::getAllEvents();
 	foreach ($allEvents as $Events){?>
-		<div class="event" width="200px">
+		<div class="event">
 			<form method="post" action="resreve.php?action=add&id=<?php echo $Events->id; ?>">
 						<!--  COMPLETE DONE  -->
-						<div><strong><?php echo $Events-> packagename; ?></strong></div>
-						<div class="single-event"><img src="<?php echo $Events->image; ?>" width="100px"></div>
-						<div class="event-content">$<?php echo $Events->description; ?></div>
-						
-				<div>
-					<input type="submit" value="Reserve" class="button" />
-				</div>
+						<div class="h4"><strong><?php echo $Events-> packagename; ?></strong></div>
+						<div class="single-event"><img src="<?php echo $Events->image; ?>" > <br></div>
+						<div class="event-content"> <?php echo $Events->description;  ?> <br>
+						<input type="submit" value="Reserve" class="button" /></div>
+
 			</form>
 		</div>
 		<?php
