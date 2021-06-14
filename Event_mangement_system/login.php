@@ -29,7 +29,7 @@ include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes f
 
 
         <input class="styles" type="password" name="password" value="" placeholder="Enter your password..">
-       
+       <br>
         <input type="submit" name="Login" value="Login">
     </form>
 

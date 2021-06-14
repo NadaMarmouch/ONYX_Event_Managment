@@ -26,7 +26,6 @@ class user
             $_SESSION['password']=$password;
             $_SESSION['name']=$row['full_name'];
             header("Location:home_page.php");
-            session_unset();
          }
          else
          {
@@ -34,5 +33,6 @@ class user
          }  
       }
    }
+  
 }
 ?>

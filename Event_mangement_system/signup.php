@@ -50,7 +50,7 @@ include('configure/db_connect.php'); // linking ma3 database bl file ely fl conf
     </form>
 
 
-    <?php include "configure/dbclass.php";
+    <?php 
           include "user.php";
 
 if(isset($_POST['signup'])){  

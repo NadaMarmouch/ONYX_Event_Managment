@@ -28,7 +28,6 @@ form{
 
 input, textarea{
   font-family: tahoma;
-  display: block;
   margin: 15px auto;
   border: 1px solid #dddddd ;
   width: 30%;
