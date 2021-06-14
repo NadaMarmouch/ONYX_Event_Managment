@@ -3,8 +3,8 @@
 
 
  // ================ Essential Vairbales ===============
- $name = $email = $feedback   ="" ;
- $name_v = $email_v  = $feedback_v  = false;
+ $name = $email = $phonenumber= $Guests  =$comments="" ;
+ $name_v = $email_v  = $phonenumber_v = $Guests_v  =$comments_v  = false;
 
  if (isset($_POST['submit'])){
    if (!empty($_POST['name-v'])){ // if non empty --> hidden input field's value ('valid' or '')
