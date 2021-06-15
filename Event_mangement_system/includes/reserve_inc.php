@@ -1,6 +1,6 @@
 <?php
 
-
+//reserve for emergency event
 
  // ================ Essential Vairbales ===============
  $name = $email = $phonenumber= $Guests  =$comments="" ;
