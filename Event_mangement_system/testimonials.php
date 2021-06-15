@@ -1,4 +1,5 @@
 <?php
+include('configure/dbclass.php'); // linking ma3 database bl file ely fl configure file
 include('includes/feedback_inc.php'); // linking ma3 el php code ely fl includes file
 
 
@@ -39,10 +40,9 @@ include('includes/feedback_inc.php'); // linking ma3 el php code ely fl includes
       <?php
            ?>
            
-           <?php include "contact.php";
-           
-           
-     if(isset($_POST['submit'])){
+           <?php
+     include "contact.php";
+ if(isset($_POST['submit'])){
      $e=new contact();
      $e->addfeedback();
  } ?>

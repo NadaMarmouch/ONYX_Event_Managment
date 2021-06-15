@@ -1,6 +1,5 @@
 <?php 
 include 'configure/dbclass.php';
-
 class Events
 {
     public function view_Events_Types(){
@@ -8,8 +7,8 @@ class Events
 
       $sql="select *from event_type";
       $result=mysqli_query($dbvariable->connectDB(),$sql);
-      //araay[10];
-      while ($row=mysqli_fetch_array($result)){//array.length 0 1 2
+ 
+      while ($row=mysqli_fetch_array($result)){
          $str.="<option>".$row['event_type']."</option>"; 
       }
       echo $str;

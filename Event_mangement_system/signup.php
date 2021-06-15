@@ -1,5 +1,4 @@
 <?php
-include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes file
 
 ?>
 <!DOCTYPE html>
@@ -21,15 +20,13 @@ include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes f
     <!-- sign-up form -->
     <form id="validate" class="" action="signup.php" method="POST">
 
-        <input class="styles" type="text" name="name" value="<?php echo $name ?>" placeholder="Enter your name..">
+        <input class="styles" type="text" name="name" value="" placeholder="Enter your name..">
         <div class="erroRS">
-            <p> <?php echo $errors['name'] ?> </p>
         </div>
 
 
-        <input class="styles" type="email" name="email" value="<?php echo $email ?>" placeholder="Enter your email..">
+        <input class="styles" type="email" name="email" value="" placeholder="Enter your email..">
         <div class="erroRS">
-            <p> <?php echo $errors['email'] ?> </p>
         </div>
 
 

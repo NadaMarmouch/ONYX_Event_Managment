@@ -39,6 +39,7 @@ include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes f
           include "user.php";
 
 if(isset($_POST['Login'])){  
+    
     $u=new user();
     $u->login($_POST['email'],$_POST['password']);
 } ?>

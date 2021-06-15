@@ -1,7 +1,6 @@
 
 <?php
 //DB Connection
-
 // ================ Essential Vairbales ===============
 $errors = ["name" => "",  "email" => ""];
 $name = $email = $password = $hashedPass =  "" ;

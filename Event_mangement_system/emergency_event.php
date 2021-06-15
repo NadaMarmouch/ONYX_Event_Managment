@@ -1,6 +1,6 @@
 <?php
 require_once("classes.php");
-
+include('configure/dbclass.php')
 ?>
 
 <html lang="en" dir="ltr">
