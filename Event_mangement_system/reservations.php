@@ -15,10 +15,10 @@ include 'events.php';
 <body>
     <?php include('templates/navbar.php')?> <!-- link bl navbar-->
 
-    <h1>Reservstion </h1>
+    <h1>Reserve Meetings </h1>
 
     <!-- sign-up form -->
-    <form id="validate" class="" action="reservations.php" method="POST">
+    <form id="validate" class="" action="schedulemeeting.php" method="POST">
 
         <input class="styles"style ="width:13.5%;" type="text" name="name" value="" placeholder="Enter your name..">
        
