@@ -50,7 +50,7 @@ if (isset($_SESSION['name'])) {
         <?php } ?>
 
         <!-- if logged in as a normal user-->
-        <?php //if ($current_name) { ?>
+        <?php if ($current_name) { ?>
           <div class="dropdown">
             <button>
             <i class="far fa-angle-double-down"></i>
@@ -64,11 +64,11 @@ if (isset($_SESSION['name'])) {
 
           </div>
 
-        <?php// } else { ?>
+        <?php } else { ?>
 
           <li> <a href="signup.php">Sign-Up</a> </li>
           <li> <a href="login.php">Login</a> </li>
-        <?php// } ?>
+        <?php } ?>
 
 
 
