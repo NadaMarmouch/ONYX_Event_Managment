@@ -1,5 +1,4 @@
 <?php
-include_once("configure/dbclass.php");
 include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes file
 
 ?>
@@ -50,8 +49,7 @@ include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes f
     </form>
 
 
-    <?php include "configure/dbclass.php";
-          include "user.php";
+    <?php include "user.php";
 
 if(isset($_POST['signup'])){  
     $u=new user();

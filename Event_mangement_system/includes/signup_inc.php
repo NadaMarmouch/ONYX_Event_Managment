@@ -1,7 +1,6 @@
 
 <?php
 //DB Connection
-require_once("configure/dbclass.php");
 
 // ================ Essential Vairbales ===============
 $errors = ["name" => "",  "email" => ""];
