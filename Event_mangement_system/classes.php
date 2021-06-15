@@ -1,4 +1,5 @@
 <?php
+include('configure\dbclass.php') ; 
 class Event {
 	public $id;
 	public $name;
