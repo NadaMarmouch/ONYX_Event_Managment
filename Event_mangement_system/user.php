@@ -22,6 +22,7 @@ class user
       $dbvariable =new DB();
       $sql="INSERT into user (full_name,email,password) values('$_POST[name]','$_POST[email]','$_POST[password1]')";
       mysqli_query($dbvariable->connectDB(),$sql);  
+      header("location:home_page.php");
    }
    
    public function login($email,$password){
