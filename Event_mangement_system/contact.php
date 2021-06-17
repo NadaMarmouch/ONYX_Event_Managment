@@ -23,10 +23,18 @@ class contact{
      }
 
      public function addreservation(){
-        $dbvar =new db();
-        $sql="INSERT INTO `emergency_event`(`name`, `email`, `phonenumber`, `numberofguests`, `comments` ) VALUES ('$_POST[name]','$_POST[email]','$_POST[phonenumber]','$_POST[Guests]','$_POST[comments]') ";
+         $dbvar =new db();
+         if(isset($_GET['id'])){
+          $id=$_GET['id'];  
+            $x="select * from emergency where id='$id'";
+         $result=mysqli_query($dbvar->connectDB(),$x);
+         $row=mysqli_fetch_array($result);
+        
+        }
+        $sql="INSERT INTO `emergency_event`(`name`, `email`, `reserve_time`,`reserve_date`,`phonenumber`, `numberofguests`, `comments`,packagename ) VALUES ('$_POST[name]','$_POST[email]','$_POST[Time]','$_POST[Date]','$_POST[phonenumber]','$_POST[Guests]','$_POST[comments]','$row[packagename]') ";
          mysqli_query($dbvar->connectDB(),$sql);
      }
 
 }
 ?>
+

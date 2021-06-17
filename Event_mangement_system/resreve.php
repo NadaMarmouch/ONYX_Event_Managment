@@ -1,5 +1,6 @@
 <?php
 //include('includes/feedback_inc.php'); // linking ma3 el php code ely fl includes file
+include('contact.php');
 
 ?>
 <!DOCTYPE html>
@@ -22,7 +23,7 @@
       <div class="title">
                 <h4><span>Reserve</h4>
             </div>
-      <form id="validate" class="reserve" action="resreve.php" method="post">
+      <form id="validate" class="reserve" action="" method="post">
 
         <input class="reserve-form" type="text" name="name" value="" placeholder="Enter your name..">
         <div class="input_errors"> <p>  </p>  </div>
@@ -44,6 +45,14 @@
         <span class="field-icon"><i class="fa fa-users"></i></span>
         <input type="hidden" name="Guests-v" value="">
 
+        <input class="reserve-form" type="time" id="Time" name="Time" class="gui-input" required="" placeholder="Reserve Event Time">
+        <span class="field-icon"><i class="fa fa-users"></i></span>
+        <input type="hidden" name="Time-v" value="">
+
+        <input class="reserve-form" type="date" id="Date" name="Date" class="gui-input" required="" placeholder="Reserve Event Date">
+        <span class="field-icon"><i class="fa fa-users"></i></span>
+        <input type="hidden" name="Date-v" value="">
+
         <input type="submit" class="reserve-form-btn" name="submit" value="Submit">
       </form>
 
@@ -51,7 +60,7 @@
 <?php
 
 if(isset($_POST['submit'])){
-    $r=new contact();
+    $r=new contact();   
     $r->addreservation();
     header("emergency_event.php");
 } ?>
