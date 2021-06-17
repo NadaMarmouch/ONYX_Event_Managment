@@ -32,12 +32,12 @@
 
 
 
-        <input class="styles" type="password" name="password1" value="" required placeholder="Enter your password..">
+        <input class="styles" type="password" name="password1" minlength="8" value="" required placeholder="Enter your password..">
         <div class="danger">
             <p> </p>
         </div>
 
-        <input class="styles" type="password" name="password2" value="" required placeholder="Re-type your password..">
+        <input class="styles" type="password" name="password2" minlength="8" value="" required placeholder="Re-type your password..">
         <div class="erroRS">
             <p> </p>
         </div>

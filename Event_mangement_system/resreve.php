@@ -27,7 +27,7 @@ include('contact.php');
 
         <input class="reserve-form" type="text" name="name" value="" required placeholder="Enter your name..">
         <div class="input_errors"> <p>  </p>  </div>
-        <input type="hidden" name="name-v" value="">
+       
 
         <input class="reserve-form" type="email" name="email" value="" required placeholder="Enter your email..">
         <div class="input_errors"> <p>  </p>  </div>
