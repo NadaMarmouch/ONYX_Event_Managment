@@ -1,5 +1,5 @@
 <?php
-include('configure/dbclass.php'); // linking ma3 database bl file ely fl configure file
+//include('configure/dbclass.php'); // linking ma3 database bl file ely fl configure file
 include('includes/feedback_inc.php'); // linking ma3 el php code ely fl includes file
 
 
@@ -23,15 +23,15 @@ include('includes/feedback_inc.php'); // linking ma3 el php code ely fl includes
       <h5 class="h5" id="contact">Testimonials</h5>
       <form id="validate" class="testimonials" action="testimonials.php" method="post">
 
-        <input class="testimonials-form" type="text" name="user_name" value="" placeholder="Enter your name..">
+        <input class="testimonials-form" type="text" name="user_name" value="" required placeholder="Enter your name..">
         <div class="input_errors"> <p>  </p>  </div>
         <input type="hidden" name="name-v" value="">
 
-        <input class="testimonials-form" type="email" name="email" value="" placeholder="Enter your email..">
+        <input class="testimonials-form" type="email" name="email" value="" required placeholder="Enter your email..">
         <div class="input_errors"> <p>  </p>  </div>
         <input type="hidden" name="email-v" value="">
 
-        <input class="testimonials-form" type="text" name="feedback" value="" placeholder="Give us your feedback..">
+        <input class="testimonials-form" type="text" name="feedback" value="" required placeholder="Give us your feedback..">
         <div class="input_errors"> <p>  </p>  </div>
         <input type="hidden" name="feedback-v" value="">
 

@@ -25,19 +25,19 @@ include('contact.php');
             </div>
       <form id="validate" class="reserve" action="" method="post">
 
-        <input class="reserve-form" type="text" name="name" value="" placeholder="Enter your name..">
+        <input class="reserve-form" type="text" name="name" value="" required placeholder="Enter your name..">
         <div class="input_errors"> <p>  </p>  </div>
         <input type="hidden" name="name-v" value="">
 
-        <input class="reserve-form" type="email" name="email" value="" placeholder="Enter your email..">
+        <input class="reserve-form" type="email" name="email" value="" required placeholder="Enter your email..">
         <div class="input_errors"> <p>  </p>  </div>
         <input type="hidden" name="email-v" value="">
 
-        <input class="reserve-form" type="text" name="phonenumber" value="" placeholder="Enter your phone number..">
+        <input class="reserve-form" type="text" name="phonenumber" value="" required placeholder="Enter your phone number..">
         <div class="input_errors"> <p>  </p>  </div>
         <input type="hidden" name="phonenumber-v" value="">
         
-        <input class="reserve-form" type="text" name="comments" value="" placeholder="Enter your comments..">
+        <input class="reserve-form" type="text" name="comments" value="" required placeholder="Enter your comments..">
         <div class="input_errors"> <p>  </p>  </div>
         <input type="hidden" name="comments-v" value="">
 

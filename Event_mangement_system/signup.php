@@ -20,23 +20,24 @@
     <!-- sign-up form -->
     <form id="validate" class="" action="signup.php" method="POST">
 
-        <input class="styles" type="text" name="name" value="" placeholder="Enter your name..">
+        <input class="styles" type="text" name="name" value="" required placeholder="Enter your name..">
         <div class="erroRS">
         </div>
 
 
-        <input class="styles" type="email" name="email" value="" placeholder="Enter your email..">
+   
+        <input class="styles" type="email" name="email" value="" required placeholder="Enter your email..">
         <div class="erroRS">
         </div>
 
 
 
-        <input class="styles" type="password" name="password1" value="" placeholder="Enter your password..">
+        <input class="styles" type="password" name="password1" value="" required placeholder="Enter your password..">
         <div class="danger">
             <p> </p>
         </div>
 
-        <input class="styles" type="password" name="password2" value="" placeholder="Re-type your password..">
+        <input class="styles" type="password" name="password2" value="" required placeholder="Re-type your password..">
         <div class="erroRS">
             <p> </p>
         </div>

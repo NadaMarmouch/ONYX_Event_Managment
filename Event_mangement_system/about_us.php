@@ -37,7 +37,7 @@
 
       <div class="container">
         <h2>Salma Sharara</h2>
-        <p class="title">Marketing specialist<br>manager/coordinator</p>
+        <p class="title">Marketing Specialist/Manager/Coordinator</p>
      <p>salma.salmaosama.zaki@gmail.com</p>
       </div>
     </div>
@@ -49,7 +49,7 @@
     <img src="pictures/34.jpeg" alt=""style="width:100%">
       <div class="container">
         <h2>Doaa Fouad Salem</h2>
-        <p class="title">General manager </p>
+        <p class="title">General Manager </p>
      <p>Doaafouadsalem@gmail.com</p>
       </div>
     </div>
@@ -61,7 +61,7 @@
     <img src="pictures/36.jpeg" alt=""style="width:100%">
       <div class="container">
         <h2>Wesam Atif</h2>
-        <p class="title">Chief executive officer  </p>
+        <p class="title">Chief Executive Officer  </p>
      <p>Wesamatif@hotmail.com</p>
       </div>
     </div>

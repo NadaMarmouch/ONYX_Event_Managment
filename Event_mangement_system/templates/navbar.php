@@ -59,6 +59,7 @@ if (isset($_SESSION['name'])) {
             <li> <a href="events.php">Book an Event</a> </li>
             <li> <a href="emergency_event.php">Emergency Events</a> </li>
             <li> <a href="testimonials.php">Testimonials</a> </li>
+            <li> <a href="profile.php">Profile </a> </li>
             <li> <a href="includes/logout.php">Logout</a> </li>
 
           </div>
