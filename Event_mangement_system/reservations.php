@@ -18,7 +18,7 @@ include 'events.php';
     <h1>Reserve Meetings </h1>
 
     <!-- sign-up form -->
-    <form id="validate" class="" action="home_page.php" method="POST">
+    <form id="validate" class="" action="" method="POST">
 
         <input class="styles"style ="width:13.5%;" type="text" name="name" value="" required placeholder="Enter your name..">
        

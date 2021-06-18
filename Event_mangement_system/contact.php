@@ -24,9 +24,15 @@ class contact{
 
      public function addreservation(){
          $dbvar =new db();
+         $check="select  * from emergency_event where reserve_date='$_POST[Date]' and reserve_time='$_POST[Time]'  ";
+            $result=mysqli_query($dbvar->connectDB(),$sql);
+            if(check_num_rows($result)>0){
+         echo '<script>alert("This time is already reserved")</script>';  
+            }
+         
          if(isset($_GET['id'])){
           $id=$_GET['id'];  
-            $x="select * from emergency where id='$id'";
+            $x="select * FROM emergency where id='$id'";
          $result=mysqli_query($dbvar->connectDB(),$x);
          $row=mysqli_fetch_array($result);
         

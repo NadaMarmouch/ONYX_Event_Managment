@@ -1,7 +1,5 @@
 
-*{
-  font-family: tahoma;
-}
+
 /* body styling */
 body{
   font-family: 'Poppins', sans-serif;
@@ -61,6 +59,7 @@ body{
 /* removing the border radius when hover */
 .event .single-event:hover img{
   border-radius:0px;
+
 }
 /* image styling*/
 .event .single-event img{

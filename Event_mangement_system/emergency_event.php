@@ -30,6 +30,7 @@ include('configure/dbclass.php')
 						<div class="event-content"> <?php echo $Events->description;  ?> <br>
 						<input type="submit" value="Reserve" class="button" /></div>
 
+				
 			</form>
 		</div>
 		<?php
