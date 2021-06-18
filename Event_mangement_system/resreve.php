@@ -31,27 +31,23 @@ include('contact.php');
 
         <input class="reserve-form" type="email" name="email" value="" required placeholder="Enter your email..">
         <div class="input_errors"> <p>  </p>  </div>
-        <input type="hidden" name="email-v" value="">
-
+        
         <input class="reserve-form" type="text" name="phonenumber" value="" required placeholder="Enter your phone number..">
         <div class="input_errors"> <p>  </p>  </div>
-        <input type="hidden" name="phonenumber-v" value="">
         
         <input class="reserve-form" type="text" name="comments" value="" required placeholder="Enter your comments..">
         <div class="input_errors"> <p>  </p>  </div>
-        <input type="hidden" name="comments-v" value="">
-
+        
         <input class="reserve-form" type="number" id="Guests" name="Guests" class="gui-input" required="" placeholder="Number of Guests">
         <span class="field-icon"><i class="fa fa-users"></i></span>
-        <input type="hidden" name="Guests-v" value="">
-
+        
         <input class="reserve-form" type="time" id="Time" name="Time" class="gui-input" required="" placeholder="Reserve Event Time">
         <span class="field-icon"><i class="fa fa-users"></i></span>
-        <input type="hidden" name="Time-v" value="">
+        
 
         <input class="reserve-form" type="date" id="Date" name="Date" class="gui-input" required="" placeholder="Reserve Event Date">
         <span class="field-icon"><i class="fa fa-users"></i></span>
-        <input type="hidden" name="Date-v" value="">
+        
 
         <input type="submit" class="reserve-form-btn" name="submit" value="Submit">
       </form>

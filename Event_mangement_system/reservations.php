@@ -20,13 +20,13 @@ include 'events.php';
     <!-- sign-up form -->
     <form id="validate" class="" action="home_page.php" method="POST">
 
-        <input class="styles"style ="width:13.5%;" type="text" name="name" value="" placeholder="Enter your name..">
+        <input class="styles"style ="width:13.5%;" type="text" name="name" value="" required placeholder="Enter your name..">
        
 
-        <input class="styles" type="email" style ="width:13.5%;"name="email"  placeholder="Enter your email..">
+        <input class="styles" type="email" style ="width:13.5%;"name="email" required placeholder="Enter your email..">
         <br>
-        <input class="styles" type="text" style ="width:13.5%;"name="phone"  placeholder="Enter your phone number..">
-        <select class="styles"  style ="width:16%;height:50px;"name="type"  placeholder="Enter your Type of Event">
+        <input class="styles" type="text" style ="width:13.5%;"name="phone" required placeholder="Enter your phone number..">
+        <select class="styles"  style ="width:16%;height:50px;"name="type"  required placeholder="Enter your Type of Event">
         <?php 
         $events=new Events();
         $events->view_Events_Types();

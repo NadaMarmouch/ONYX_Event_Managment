@@ -16,7 +16,12 @@ class Events
    public function Reserve($name,$email,$date,$time,$attendee,$phone,$comment,$type)
    {
     $dbvariable=new DB();
-    $sql="INSERT INTO `reservation`( `name`, `email`, `meeting_date`, `meeting_time`, `num_of_per`, `phone`, `comments`, `type`) 
+   $check="select  * from reservation where meeting_date='$date' and meeting_time='$time'  ";
+   if(mysqli_query($dbvariable->connectDB(),$check))
+   {
+   echo '<script>alert("This time is already reserved")</script>';  
+   }
+   $sql="INSERT INTO `reservation`( `name`, `email`, `meeting_date`, `meeting_time`, `num_of_per`, `phone`, `comments`, `type`) 
     VALUES ('$name','$email','$date','$time','$attendee','$phone','$comment','$type')";
     $result=mysqli_query($dbvariable->connectDB(),$sql);
 }

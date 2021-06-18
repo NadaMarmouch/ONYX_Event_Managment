@@ -25,16 +25,15 @@ include('includes/feedback_inc.php'); // linking ma3 el php code ely fl includes
 
         <input class="testimonials-form" type="text" name="user_name" value="" required placeholder="Enter your name..">
         <div class="input_errors"> <p>  </p>  </div>
-        <input type="hidden" name="name-v" value="">
+        
 
         <input class="testimonials-form" type="email" name="email" value="" required placeholder="Enter your email..">
         <div class="input_errors"> <p>  </p>  </div>
-        <input type="hidden" name="email-v" value="">
+        
 
         <input class="testimonials-form" type="text" name="feedback" value="" required placeholder="Give us your feedback..">
         <div class="input_errors"> <p>  </p>  </div>
-        <input type="hidden" name="feedback-v" value="">
-
+        
         <input type="submit" class="testimonials-form-btn" name="submit" value="Submit">
       </form>
       <?php
