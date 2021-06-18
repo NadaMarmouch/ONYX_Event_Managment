@@ -1,5 +1,5 @@
 <?php
-include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes file
+//include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes file
 include 'events.php';
 ?>
 <!DOCTYPE html>
@@ -8,9 +8,10 @@ include 'events.php';
 
 <head>
     <meta charset="utf-8">
-    <title>Sign-Up</title>
-    <link rel="stylesheet" href="assets/sign_up_styles.css"> <!-- hena by linked styling bt3 sign up -->
+    <title>Meeting</title>
+    <!--<link rel="stylesheet" href="assets/sign_up_styles.css">  hena by linked styling bt3 sign up -->
     <link rel="stylesheet" href="assets/navbar_styles.css"> <!-- hena by linked el navbar-->
+    <link rel="stylesheet" href="assets/reservation.css"> <!-- hena by linked el navbar-->
 </head>
 <body>
     <?php include('templates/navbar.php')?> <!-- link bl navbar-->
