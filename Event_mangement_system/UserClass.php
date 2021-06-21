@@ -1,34 +1,36 @@
 <?php
 //include "DB.php";
-$con = mysqli_connect("localhost", "root", "","User");
+$con = mysqli_connect("localhost", "root", "","onyx_event_management");
 
 class User
 {
 	public $UserName;
 	public $Password;
+	public $email;
 	public $UserType_obj;
 	public $ID;
 	
 	function __construct($id)	{
 		if ($id !="")
 		{
-			$con = mysqli_connect("localhost", "root", "","User");
-			$sql="select * from users where 	ID=$id";
+			$con = mysqli_connect("localhost", "root", "","onyx_event_management");
+			$sql="select * from user where 	id=$id";
 			$User = mysqli_query($con,$sql);
 			if ($row = mysqli_fetch_array($User))
 			{
-				$this->UserName=$row["UserName"];
-				$this->Password=$row["Password"];
-				$this->ID=$row["ID"];
-				$this->UserType_obj=new UserType($row["UserType_id"]);
+				$this->UserName=$row["full_name"];
+				$this->Password=$row["password"];
+				$this->ID=$row["id"];
+					$this->email=$row["email"];
+				// $this->UserType_obj=new UserType($row["UserType_id"]);
 			}
 		}
 	}
 	
 	static function login($UserName,$Password)
 	{
-		$con = mysqli_connect("localhost", "root", "","User");
-		$sql="SELECT * FROM users WHERE UserName='$UserName' and Password='$Password'";	
+		$con = mysqli_connect("localhost", "root", "","onyx_event_management");
+		$sql="SELECT * FROM user WHERE full_name='$UserName' and password='$Password'";	
 		$result=mysqli_query($con,$sql);
 		if ($row=mysqli_fetch_array($result))
 		{
@@ -39,14 +41,14 @@ class User
 	
 	static function SelectAllUsersInDB()
 	{
-		$con = mysqli_connect("localhost", "root", "","User");
+		$con = mysqli_connect("localhost", "root", "","onyx_event_management");
 		$sql="select * from users";
 		$Users = mysqli_query($con,$sql);
 		$i=0;
 		$Result;
-		while ($row = mysql_fetch_array(Users))
+		while ($row = mysql_fetch_array($Users))
 		{
-			$MyObj= new User($row["ID"]);
+			$MyObj= new User($row["id"]);
 			$Result[$i]=$MyObj;
 			$i++;
 		}
