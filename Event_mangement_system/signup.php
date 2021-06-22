@@ -23,26 +23,17 @@
         <input class="styles" type="text" name="name" value="" required placeholder="Enter your name..">
         <div class="erroRS">
         </div>
-
-
-   
         <input class="styles" type="email" name="email" value="" required placeholder="Enter your email..">
         <div class="erroRS">
         </div>
-
-
-
         <input class="styles" type="password" name="password1" minlength="8" value="" required placeholder="Enter your password..">
         <div class="danger">
             <p> </p>
         </div>
-
         <input class="styles" type="password" name="password2" minlength="8" value="" required placeholder="Re-type your password..">
         <div class="erroRS">
             <p> </p>
         </div>
-
-
         <input type="submit" name="signup" value="Register">
     </form>
 

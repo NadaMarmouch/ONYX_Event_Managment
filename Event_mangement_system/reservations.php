@@ -1,5 +1,4 @@
 <?php
-//include('includes/signup_inc.php'); // linking ma3 el php code ely fl includes file
 include 'events.php';
 ?>
 <!DOCTYPE html>
@@ -9,7 +8,6 @@ include 'events.php';
 <head>
     <meta charset="utf-8">
     <title>Meeting</title>
-    <!--<link rel="stylesheet" href="assets/sign_up_styles.css">  hena by linked styling bt3 sign up -->
     <link rel="stylesheet" href="assets/navbar_styles.css"> <!-- hena by linked el navbar-->
     <link rel="stylesheet" href="assets/reservation.css"> <!-- hena by linked el navbar-->
 </head>
@@ -22,8 +20,6 @@ include 'events.php';
     <form id="validate" class="" action="" method="POST">
 
         <input class="styles"style ="width:13.5%;" type="text" name="name" value="" required placeholder="Enter your name..">
-       
-
         <input class="styles" type="email" style ="width:13.5%;"name="email" required placeholder="Enter your email..">
         <br>
         <input class="styles" type="text" style ="width:13.5%;"name="phone" required placeholder="Enter your phone number..">
@@ -32,14 +28,9 @@ include 'events.php';
         $events=new Events();
         $events->view_Events_Types();
         ?>        
-        
         </select>
         <br>  
-
-  
         <input style ="width:13.5%;" class="styles" type="date" name="date" >
-
-
        <input class="styles" style="width:13.5%;" type="time" name="time"  ><br>
        <input style="width:22%;"class="styles" type="text" placeholder="Add comment" name="comment">
         
@@ -47,8 +38,6 @@ include 'events.php';
 
         <input type="submit" name="reserve" value="Schedule Meeting">
     </form>
-
-
     <?php 
 
 if(isset($_POST['reserve'])){  
