@@ -6,9 +6,9 @@ class DB{
 	private $database = "onyx_event_management";
 	public $conn;
 
-	function __construct() {
-		$this->conn = $this->connectDB();
-        
+	function __construct()
+	{
+		$this->conn = $this->connectDB();        
 	}
 
 	function connectDB() {
