@@ -29,7 +29,19 @@ public function view_Events_Status(){
    }
    echo $str;
 }
+public function EditProfile($email,$name,$password)
+{
+   $dbvariable=new DB();
 
+   $sql="UPDATE `user` SET `full_name`='$email',`email`='$name',`password`='$password' WHERE id='$_SESSION[id]' ";
+   $result=mysqli_query($dbvariable->connectDB(),$sql);
+   header("location:http://localhost/ONYX_Event_Managment/Event_mangement_system/home_page.php");
+}
+
+public function GetUser(){
+   $sql="select * from user where id='$_SESSION[id]'";
+   $result=mysqli_query($dbvariable->connectDB(),$sql);
+}
 public function view_Events_Venue(){
    $dbvariable=new DB();
 
@@ -41,7 +53,21 @@ public function view_Events_Venue(){
    }
    echo $str;
 }
-   public function adduser()
+public function viewfeedbacks(){
+   $dbvariable=new DB();
+
+   $sql="select * from testimonials where name='$_SESSION[name]'";
+   $result=mysqli_query($dbvariable->connectDB(),$sql);
+$str="";
+   while ($row=mysqli_fetch_array($result)){
+      $str.="<tr>
+      <td>".$row['feedback']."</td>
+       </tr>"; 
+   }
+   echo $str;
+} 
+
+public function adduser()
    {
       $dbvariable =new DB();
       $sql="INSERT into user (full_name,email,password) values('$_POST[name]','$_POST[email]','$_POST[password1]')";

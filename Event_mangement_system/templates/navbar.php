@@ -59,7 +59,7 @@ if (isset($_SESSION['name'])) {
             <li> <a href="public/control.php">Book an Event</a> </li>
             <li> <a href="http://localhost/ONYX_Event_Managment/Event_mangement_system/emergency_event.php">Emergency Events</a> </li>
             <li> <a href="http://localhost/ONYX_Event_Managment/Event_mangement_system/testimonials.php">Testimonials</a> </li>
-            <li> <a href="http://localhost/ONYX_Event_Managment/Event_mangement_system/profile.php">Profile </a> </li>
+            <li> <a href="http://localhost/ONYX_Event_Managment/Event_mangement_system/view_profile.php">Profile </a> </li>
             <li> <a href="http://localhost/ONYX_Event_Managment/Event_mangement_system/includes/logout.php">Logout</a> </li>
 
           </div>

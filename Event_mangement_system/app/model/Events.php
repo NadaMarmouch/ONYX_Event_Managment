@@ -1,6 +1,5 @@
 <?php
 require_once("..\app\model/Model.php");
-session_start();
 class Events extends Model {
 	protected $event_name;
     protected $start_date;
