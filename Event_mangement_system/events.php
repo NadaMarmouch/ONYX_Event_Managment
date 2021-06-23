@@ -13,6 +13,8 @@ class Events
       }
       echo $str;
    }
+
+
       public function view_Events_Status(){
          $dbvariable=new DB();
    
@@ -45,8 +47,8 @@ public function view_Events_Venue(){
    {
    echo '<script>alert("This time is already reserved")</script>';  
    }
-   $sql="INSERT INTO `reservation`( `name`, `email`, `meeting_date`, `meeting_time`, `num_of_per`, `phone`, `comments`, `type`) 
-    VALUES ('$name','$email','$date','$time','$attendee','$phone','$comment','$type')";
+   $sql="INSERT INTO `reservation`(`name`, `email`, `meeting_date`, `meeting_time`, `num_of_per`, `phone`, `comments`, `type`) 
+    VALUES('$name','$email','$date','$time','$attendee','$phone','$comment','$type')";
     $result=mysqli_query($dbvariable->connectDB(),$sql);
 }
 }
