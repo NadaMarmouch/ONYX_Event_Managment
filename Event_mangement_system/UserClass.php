@@ -22,13 +22,14 @@ class User
 				$this->Password=$row["password"];
 				$this->ID=$row["id"];
 					$this->email=$row["email"];
-				// $this->UserType_obj=new UserType($row["UserType_id"]);
+		.......		// $this->UserType_obj=new UserType($row["UserType_id"]);
 			}
 		}
 	}
 	
 	static function login($UserName,$Password)
 	{
+
 		$con = mysqli_connect("localhost", "root", "","onyx_event_management");
 		$sql="SELECT * FROM user WHERE full_name='$UserName' and password='$Password'";	
 		$result=mysqli_query($con,$sql);

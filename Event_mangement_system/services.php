@@ -24,21 +24,25 @@ include('configure/dbclass.php')
       <p class="p1"><i> “A COMPLETE ARRAY OF PROFESSIONAL SERVICES"</i></p>
       </div>
        <h2 style="text-align:center">Full-service event planning for excepional social and corporate events</h2>
+       <div class="row">
        <?php	
 	$allServices=SERVICESS::getAllServices();
 	foreach ($allServices as $Services){?>
 		<div class="Services">
+    <div class="column"> 
 			<form method="post" action="services.php?action=add&id=<?php echo $Services->id; ?>">
 						<!--  COMPLETE DONE  -->
 						<div class="h4"><strong><?php echo $Services-> service_name; ?></strong></div>
 						<div class="single-Services"><img src="<?php echo $Services->image; ?>" > <br></div>
 						<div class="Services-content"> <?php echo $Services->description;  ?> <br>
 			</form>
+      </div>
 		</div>
 		<?php
         
 	}
 	?>
+  </div><
       <?php include("Contact_us.php") ?>
 </div>
 </BODY>

@@ -34,9 +34,20 @@ body {
   border:3px solid #f9806E;
   padding:13px;
   transition:.5s;
+  display: inline-block;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .button {
   border: none;
   color: #f9806E;
