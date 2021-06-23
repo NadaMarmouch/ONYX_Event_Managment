@@ -22,7 +22,7 @@ class User
 				$this->Password=$row["password"];
 				$this->ID=$row["id"];
 					$this->email=$row["email"];
-		.......		// $this->UserType_obj=new UserType($row["UserType_id"]);
+			// $this->UserType_obj=new UserType($row["UserType_id"]);
 			}
 		}
 	}

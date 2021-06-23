@@ -10,10 +10,9 @@
     <link rel="stylesheet" href="assets/navbar_styles.css"> <!-- hena by linked el navbar-->
 </head>
 <body>
-    <?php include('templates/navbar.php')?> <!-- link bl navbar-->
+    <?php include('templates/navbar.php');?> <!-- link bl navbar-->
 
 <?php
-session_start();	
 include_once "UserClass.php";
 
 $UserObject=new User($_SESSION["ID"]);
