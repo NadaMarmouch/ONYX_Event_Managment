@@ -58,7 +58,7 @@ $this->comments=" ";
     public function setVenuename($venue_name){
      $this->venue_name=$venue_name;
     }
-    public function getE    ventstatus(){
+    public function getEventstatus(){
         return $this->event_status;
     }
     public function setEventstatus($event_status){
