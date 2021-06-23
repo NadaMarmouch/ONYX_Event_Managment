@@ -1,8 +1,9 @@
 <?php
 require_once("View.php");
-class EventView   {
+
+class EventView extends View{
   public function output(){
-    include("../app/templates/navbar.php");
+    include("../templates/navbar.php");
    $event= new Events();
     $text=' 
     <!DOCTYPE html>
@@ -12,8 +13,8 @@ class EventView   {
     <head>
         <meta charset="utf-8">
         <title>Book an event</title>
-        <link rel="stylesheet" href="../app/view/event.css"> <!-- hena by linked styling bt3 sign up -->
-        <link rel="stylesheet" href="../app/view/navbar_styles.css"> <!-- hena by linked el navbar-->
+        <link rel="stylesheet" href="../assets/event.css"> <!-- hena by linked styling bt3 sign up -->
+        <link rel="stylesheet" href="../assets/navbar_styles.css"> <!-- hena by linked el navbar-->
     </head>
     
     <body>

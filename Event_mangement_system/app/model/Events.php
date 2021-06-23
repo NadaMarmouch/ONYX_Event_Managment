@@ -58,7 +58,7 @@ $this->comments=" ";
     public function setVenuename($venue_name){
      $this->venue_name=$venue_name;
     }
-    public function getEventstatus(){
+    public function getE    ventstatus(){
         return $this->event_status;
     }
     public function setEventstatus($event_status){
@@ -73,11 +73,13 @@ $this->comments=" ";
 
     
     function insertEvent(){
-		$sql = "INSERT INTO `events`(`user__id`, `event_name`, `start_date`, `end_date`, `num_of_part`, `event_type`, `venue_name`, `event_status`, `comments`) 
+		$sql = "INSERT INTO `events`(`user_id`, `event_name`, `start_date`, `end_date`, `num_of_part`, `event_type`, `venue_name`, `event_status`, `comments`) 
         VALUES ('1','$this->event_name','$this->start_date','$this->end_date','$this->num_of_part','$this->event_type','$this->venue_name','$this->event_status','$this->comments')";
         $db=new DBH();
         mysqli_query($db->connectDB(),$sql);
 }
+
+
 public function view_Events_Types(){
     $dbvariable=new DBH();
 
@@ -110,4 +112,17 @@ public function view_Events_Venue(){
     }
     return $str;
  }
+ public function Reserve($name,$email,$date,$time,$attendee,$phone,$comment,$type)
+ {
+  $dbvariable=new DB();
+ $check="select  * from reservation where meeting_date='$date' and meeting_time='$time'  ";
+ if(mysqli_query($dbvariable->connectDB(),$check))
+ {
+ echo '<script>alert("This time is already reserved")</script>';  
+ }
+ $sql="INSERT INTO `reservation`(`name`, `email`, `meeting_date`, `meeting_time`, `num_of_per`, `phone`, `comments`, `type`) 
+  VALUES('$name','$email','$date','$time','$attendee','$phone','$comment','$type')";
+  $result=mysqli_query($dbvariable->connectDB(),$sql);
+}
+
 }
