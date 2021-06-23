@@ -21,7 +21,7 @@
     padding: 23 15px;
     overflow: hidden;
     font-family: "montserrat", sans-serif;
-    background-image: url("../pictures/24.png");
+    background-image: url("../templates/41.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -35,7 +35,7 @@
     box-sizing: border-box;
     margin: auto;
     border: 0;
-    background-color: rgb(8, 8, 8);
+    background-color: #FFFFFF;
     padding: 20px  40px;
     outline: none;
     color: #f8583f;
@@ -76,9 +76,11 @@
   input[type="text"]:focus{
     box-shadow:5px #f8583f;
     border:3px solid  #f8583f;
+  }
+  input[type="date"]:focus{
+    background-color: #FFFFFF;
   
   }
-  
   /* ============== error and redirecting messages ============== */
   
   
