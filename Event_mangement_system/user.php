@@ -29,7 +29,18 @@ public function view_Events_Status(){
    }
    echo $str;
 }
+public function EditProfile($email,$name,$password)
+{
+   $dbvariable=new DB();
 
+   $sql="UPDATE `user` SET `full_name`='$email',`email`='$name',`password`='$password' WHERE id='$_SESSION[id]' ";
+   $result=mysqli_query($dbvariable->connectDB(),$sql);
+   header("location:http://localhost/ONYX_Event_Managment/Event_mangement_system/home_page.php");
+}
+public function GetUser(){
+   $sql="select * from user where id='$_SESSION['id']' ";
+   $result=mysqli_query($dbvariable->connectDB(),$sql);
+}
 public function view_Events_Venue(){
    $dbvariable=new DB();
 
