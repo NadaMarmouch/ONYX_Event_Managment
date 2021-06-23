@@ -56,7 +56,7 @@ if (isset($_SESSION['name'])) {
             </button>
             <div class="dropdown-content">
             <li> <a href="reservations.php">Schedule a Meeting</a> </li>
-            <li> <a href="event.php">Book an Event</a> </li>
+            <li> <a href="public/control.php">Book an Event</a> </li>
             <li> <a href="emergency_event.php">Emergency Events</a> </li>
             <li> <a href="testimonials.php">Testimonials</a> </li>
             <li> <a href="profile.php">Profile </a> </li>

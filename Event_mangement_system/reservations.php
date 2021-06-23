@@ -16,7 +16,6 @@ include 'events.php';
 
     <h1>Reserve Meetings </h1>
 
-    <!-- sign-up form -->
     <form id="validate" class="" action="" method="POST">
 
         <input class="styles"style ="width:13.5%;" type="text" name="name" value="" required placeholder="Enter your name..">
@@ -36,11 +35,11 @@ include 'events.php';
         
         <input class="styles"  style="width:5%;"type="number"placeholder="Attendee" min="1" name="attendee"  ><br>
 
-        <input type="submit" name="reserve" value="Schedule Meeting">
+        <input type="submit" name="submit" value="Schedule Meeting">
     </form>
     <?php 
 
-if(isset($_POST['reserve'])){  
+if(isset($_POST['submit'])){  
     $u=new Events();
     $u->Reserve($_POST['name'],$_POST['email'],$_POST['date'],$_POST['time'],$_POST['attendee'],$_POST['phone'],$_POST['comment'],$_POST['type']);
 } ?>

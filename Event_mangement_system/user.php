@@ -49,7 +49,8 @@ public function view_Events_Venue(){
       header("location:home_page.php");
    }
    
-   public function login($email,$password){
+   public function login($email,$password)
+   {
    
       $dbvariable =new DB();
       $sql=" SELECT * from user where email='$email' and password='$password'";
@@ -61,16 +62,13 @@ public function view_Events_Venue(){
          if($row['email']==$email && $row['password']==$password )
          {  
             session_start();
+            echo'asdasd';
             $_SESSION['id'] = $row['id'];
             $_SESSION['email']=$email;
             $_SESSION['password']=$password;
             $_SESSION['name']=$row['full_name'];
-            if($row['email']=="admin@gmail.com"){
-               header("Location:admin.php");
-            }
-            else{
             header("Location:home_page.php");
-         }}  
+         }  
          else
          {
             echo "<scrript>alert('Invalid Email and Password');</script>";
