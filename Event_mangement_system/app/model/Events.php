@@ -102,14 +102,12 @@ $str='';
 }
 public function view_Events_Venue(){
     $dbvariable=new DBH();
- 
     $sql="select *from venue";
     $result=mysqli_query($dbvariable->connectDB(),$sql);
     $str='';
- 
     while ($row=mysqli_fetch_array($result)){
        $str.="<option>".$row['venue_name']."</option>"; 
     }
-    echo $str;
+    return $str;
  }
 }
