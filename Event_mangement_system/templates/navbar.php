@@ -35,9 +35,9 @@ if (isset($_SESSION['name'])) {
       <div class="links">
         <ul>
 
-          <li> <a href="home_page.php" class="home">Home</a> </li>
-          <li> <a href= "about_us.php">About Us</a> </li>
-          <li> <a href="services.php">Services</a> </li>
+          <li> <a href="http://localhost/ONYX_Event_Managment/Event_mangement_system/home_page.php" class="home">Home</a> </li>
+          <li> <a href= "http://localhost/ONYX_Event_Managment/Event_mangement_system/about_us.php">About Us</a> </li>
+          <li> <a href="http://localhost/ONYX_Event_Managment/Event_mangement_system/services.php">Services</a> </li>
           <li class="us"> <a href='#contact'>Contact Us</a> </li>
 
             <!-- only if logged in as admin-->
@@ -55,16 +55,16 @@ if (isset($_SESSION['name'])) {
             <i class="far fa-angle-double-down"></i>
             </button>
             <div class="dropdown-content">
-            <li> <a href="reservations.php">Schedule a Meeting</a> </li>
+            <li> <a href="http://localhost/ONYX_Event_Managment/Event_mangement_system/reservations.php">Schedule a Meeting</a> </li>
             <li> <a href="public/control.php">Book an Event</a> </li>
-            <li> <a href="emergency_event.php">Emergency Events</a> </li>
-            <li> <a href="testimonials.php">Testimonials</a> </li>
-            <li> <a href="profile.php">Profile </a> </li>
-            <li> <a href="includes/logout.php">Logout</a> </li>
+            <li> <a href="http://localhost/ONYX_Event_Managment/Event_mangement_system/emergency_event.php">Emergency Events</a> </li>
+            <li> <a href="http://localhost/ONYX_Event_Managment/Event_mangement_system/testimonials.php">Testimonials</a> </li>
+            <li> <a href="http://localhost/ONYX_Event_Managment/Event_mangement_system/profile.php">Profile </a> </li>
+            <li> <a href="http://localhost/ONYX_Event_Managment/Event_mangement_system/includes/logout.php">Logout</a> </li>
 
           </div>
 
-        <?php } else { ?>
+        <?php } else { ?> 
 
           <li> <a href="signup.php">Sign-Up</a> </li>
           <li> <a href="login.php">Login</a> </li>
