@@ -1,3 +1,4 @@
+<?php include "user.php";?>
 <!DOCTYPE html>
 <html lang="
 " dir="ltr">
@@ -39,19 +40,13 @@ tr {
     <th>Feedbacks</th>
     
   </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-     </tr>
+  <?php $user=new user();
+  $user->viewfeedbacks();
+  ?> 
 </table>
 
 
 
-    <?php include "user.php";
-
-if(isset($_POST['submit'])){  
-    $u=new user();
-    $u->EditProfile($_POST['email'],$_POST['name'],$_POST['password1']);
-} ?>
     <script type="text/javascript" src="js/form_validation_signup.js"> </script>
 </body>
 

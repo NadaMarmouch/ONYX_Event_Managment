@@ -56,11 +56,13 @@ public function view_Events_Venue(){
 public function viewfeedbacks(){
    $dbvariable=new DB();
 
-   $sql="select *from testimonials";
+   $sql="select * from testimonials where name='$_SESSION[name]'";
    $result=mysqli_query($dbvariable->connectDB(),$sql);
-
+$str="";
    while ($row=mysqli_fetch_array($result)){
-      $str.="<option>".$row['venue']."</option>"; 
+      $str.="<tr>
+      <td>".$row['feedback']."</td>
+       </tr>"; 
    }
    echo $str;
 } 
