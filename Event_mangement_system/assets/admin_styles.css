@@ -1,80 +1,83 @@
 /* ================= Headings ==================== */
- *{
-   font-family: tahoma;
- }
- body{
-   margin:0px;
-   padding: 0;
-   display: inline;
- }
-h1 {
-  text-align:center;
-  font-family: tahoma;
-  margin-top: 30px;
-  margin-bottom: 40px;
-  color:rgb(68, 68, 68);
-  font-size: 40px;
+
+* {
+    font-family: tahoma;
 }
 
+body {
+    margin: 0px;
+    padding: 0;
+    display: inline;
+}
 
-
+h1 {
+    text-align: center;
+    font-family: tahoma;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: rgb(68, 68, 68);
+    font-size: 40px;
+}
 
 h2 {
-  text-align:center;
-  font-family: tahoma;
-  margin-top: 30px;
-  margin-bottom: 40px;
-  color:rgb(68, 68, 68);
-  font-size: 40px;
+    text-align: center;
+    font-family: tahoma;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: rgb(68, 68, 68);
+    font-size: 40px;
 }
 
 h3 {
-  text-align:left;
-  font-family: tahoma;
-  margin-top: 30px;
-  margin-bottom: 40px;
-  color:rgb(68, 68, 68);
-  font-size: 40px;
-  margin-left: 200px;
+    text-align: left;
+    font-family: tahoma;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: rgb(68, 68, 68);
+    font-size: 40px;
+    margin-left: 200px;
 }
 
 
 /* Buttons */
-.button{
-  background-color: rgb(24, 194, 250) ;
-  padding: 10px 20px;
-  text-decoration: none;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 400;
-  transition: background-color 200ms ease-in-out
 
+.button {
+    background-color: rgb(24, 194, 250);
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: background-color 200ms ease-in-out
 }
 
-.button:hover{
-  background-color:  rgb(14, 183, 238)
+.button:hover {
+    background-color: rgb(14, 183, 238)
 }
+
+
 /* ================= Table ==================== */
 
 table {
-text-align: center;
-margin-left: 200px;
-margin-top: 50px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 50px;
 }
 
 table.one {
-text-align: center;
-margin-left: 200px;
-margin-top: 50px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 50px;
 }
 
-tbody td{
-  padding: 15px;
-  background-color: rgb(230, 254, 255)
+tbody td {
+    padding: 15px;
+    background-color: rgb(230, 254, 255)
 }
-thead  td{
-  padding: 15px;
-  background-color: rgb(69, 69, 69);
-  color:#fff;
-  border: rgb(36, 149, 255)
+
+thead td {
+    padding: 15px;
+    background-color: rgb(69, 69, 69);
+    color: #fff;
+    border: rgb(36, 149, 255)
 }

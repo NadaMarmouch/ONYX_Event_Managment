@@ -18,7 +18,8 @@ nav .brand {
 nav .links {
     float: left;
     width: auto;
-    margin-top: 15px;
+    margin-top: -99px;
+    margin-left: 364px;
     font-size: 20px;
 }
 

@@ -1,56 +1,43 @@
-/*title styling*/
-.events h5{
-    margin-top:-20px;
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../pictures/41.png);
+    background-position-y: 1.7cm;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background: rgb(179, 19, 19);*/
+}
+
+.events h5 {
+    margin-top: -20px;
     text-align: center;
     color: white;
     font-size: 35px;
     line-height: 10px;
-    margin-left:5px;
-  }
-  /*border ely ta7t title contact us styling*/
-  .border-1{
-    width: 168px;
-    height: 7px;
-    background: #fc6166;
-    margin: 40px auto;
-  }
-  /*footer div styling styling html kolo*/
-  .events {
-    width: 100%;
-    margin: auto;
-    padding: 23 15px;
-    overflow: hidden;
-    font-family: "montserrat", sans-serif;
-    background-image: url("../pictures/24.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 640px;
+    margin-left: 5px;
+}
+
+
+/* ============== Headings ============== */
+
+h1 {
+    text-align: center;
+    font-family: tahoma;
+    margin-top: 83px;
+    margin-bottom: 33px;
+    color: rgb(248, 248, 248);
+}
+
+
+/* ============== Forms ============== */
+
+form {
     text-align: center;
     margin: 0 auto;
-  }
-  .event-form{
-    display: block;
-    width: 63%;
-    box-sizing: border-box;
-    margin: auto;
-    border: 0;
-    background-color: rgb(8, 8, 8);
-    padding: 20px  40px;
-    outline: none;
-    color: #f8583f;
-    transition: 0.5s;
-    text-align: center;
-  }
-  .event-form:focus{
-    box-shadow: 0 0 10px 4px #d8395b;
-  }
-  textarea .event-form{
-    resize: none;
-    height: 120px;
-  }
-  .event-form-btn{
-    float:none;
+}
+
+.event-form-btn {
+    float: none;
     border: 0;
     background: #f8583f;
     color: #fff;
@@ -58,42 +45,52 @@
     border-radius: 20px;
     cursor: pointer;
     transition: 0.5s;
-  }
-  .event-form-btn:hover{
-    background:#f8583f;
-  }
-  
-  
-  
-  
-  h3{
-    color:rgb(180, 0, 0);
+}
+
+.event-form-btn:hover {
+    background: #f8583f;
+}
+
+h3 {
+    color: rgb(180, 0, 0);
     font-weight: 200;
     text-align: center;
-  
-  }
-  
-  input[type="text"]:focus{
-    box-shadow:5px #f8583f;
-    border:3px solid  #f8583f;
-  
-  }
-  
-  /* ============== error and redirecting messages ============== */
-  
-  
-  .erroRS p {
-  color:red;
-  font-family: tahoma;
-  margin-top: 3px;
-  margin-bottom: 40px;
-  font-size: 12px
-  
-  
-  }
-  /*  Error Messages */
-  .input_errors{
-    box-shadow:0 0 5px #F9806E;
+}
+
+input[type="text"]:focus {
+    box-shadow: 5px #f8583f;
+    border: 3px solid #f8583f;
+}
+
+
+/* ============== error and redirecting messages ============== */
+
+.erroRS p {
+    color: red;
+    font-family: tahoma;
+    margin-top: 3px;
+    margin-bottom: 40px;
+    font-size: 12px
+}
+
+
+/*  Error Messages */
+
+.input_errors {
+    box-shadow: 0 0 5px #F9806E;
     border-color: #f8583f;
-  }
-  
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
