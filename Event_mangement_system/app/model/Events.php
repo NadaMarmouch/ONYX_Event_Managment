@@ -1,5 +1,5 @@
 <?php
-require_once("..\app\model/Model.php");
+require_once("Model.php");
 class Events extends Model {
 	protected $event_name;
     protected $start_date;
@@ -77,9 +77,8 @@ $this->comments=" ";
         VALUES ('$_SESSION[id]','$this->event_name','$this->start_date','$this->end_date','$this->num_of_part','$this->event_type','$this->venue_name','$this->event_status','$this->comments')";
         $db=new DBH();
         mysqli_query($db->connectDB(),$sql);
-}
-
-
+       
+    }
 public function view_Events_Types(){
     $dbvariable=new DBH();
 

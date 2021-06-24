@@ -19,6 +19,7 @@ class EventsController extends Controller{
 			$EventModel->setEventstatus($_POST['status']);
 			$EventModel->setComments($_POST['comments']);
 			$EventModel->insertEvent();
+			echo "mariam";
 		}
 		
 	}

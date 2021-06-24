@@ -31,6 +31,7 @@
             <p> </p>
         </div>
         <input type="submit" name="submit" value="Edit Profile  ">
+        <input type="submit" name="feedback" value="View feedback  ">
        
     </form>
 
@@ -40,8 +41,15 @@
 if(isset($_POST['submit'])){  
     $u=new user();
     $u->EditProfile($_POST['email'],$_POST['name'],$_POST['password1']);
-} ?>
+}
+if(isset($_POST['feedback'])){
+    header("location:feedback.php");
+
+
+}
+?>
     <script type="text/javascript" src="js/form_validation_signup.js"> </script>
+    
 </body>
 
 </html>
