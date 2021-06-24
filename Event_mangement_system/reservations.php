@@ -1,5 +1,5 @@
 <?php
-include 'app/model/Events.php';
+include 'events.php';
 ?>
 <!DOCTYPE html>
 <html lang="
