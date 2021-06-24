@@ -73,7 +73,7 @@ $this->comments=" ";
     
     function insertEvent(){
 
-		$sql = "INSERT INTO `events`(`user__id`, `event_name`, `start_date`, `end_date`, `num_of_part`, `event_type`, `venue_name`, `event_status`, `comments`) 
+		$sql = "INSERT INTO `events`(`user_id`, `event_name`, `start_date`, `end_date`, `num_of_part`, `event_type`, `venue_name`, `event_status`, `comments`) 
         VALUES ('$_SESSION[id]','$this->event_name','$this->start_date','$this->end_date','$this->num_of_part','$this->event_type','$this->venue_name','$this->event_status','$this->comments')";
         $db=new DBH();
         mysqli_query($db->connectDB(),$sql);
