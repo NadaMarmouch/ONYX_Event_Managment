@@ -1,5 +1,5 @@
 <?php
-require_once("..\app\model/Model.php");
+require_once("Model.php");
 class Events extends Model {
 	protected $event_name;
     protected $start_date;
@@ -89,7 +89,7 @@ $str=' ';
     while ($row=mysqli_fetch_array($result)){
        $str.='<option>'.$row['event_type'].'</option>'; 
     }
-    return $str;
+    echo $str;
  }
  public function view_Events_Status(){
     $dbvariable=new DBH();

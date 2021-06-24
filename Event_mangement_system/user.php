@@ -88,7 +88,7 @@ public function adduser()
          if($row['email']==$email && $row['password']==$password )
          {  
             session_start();
-            echo'asdasd';
+           
             $_SESSION['id'] = $row['id'];
             $_SESSION['email']=$email;
             $_SESSION['password']=$password;
